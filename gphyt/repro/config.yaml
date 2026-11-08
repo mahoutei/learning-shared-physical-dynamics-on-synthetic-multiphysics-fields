@@ -1,4 +1,4 @@
-run_name: gphyt_s_baseline
+run_name: gphyt_s_no_derivatives
 seed: 0
 
 data:
@@ -33,7 +33,7 @@ model:
     pos_enc_mode: absolute
     patch_size: [1, 16, 16]
     stochastic_depth_rate: 0.0
-    use_derivatives: true
+    use_derivatives: false
     integrator: Euler
   tokenizer:
     tokenizer_mode: linear
