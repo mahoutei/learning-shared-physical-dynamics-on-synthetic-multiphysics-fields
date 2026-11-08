@@ -1,4 +1,4 @@
-run_name: gphyt_s_baseline
+run_name: unet_s_baseline
 seed: 0
 
 data:
@@ -24,23 +24,10 @@ data:
     t1_fields: [velocity]
 
 model:
-  architecture: gphyt
-  transformer:
-    input_channels: 5
-    model_size: GPT_S
-    att_mode: full
-    dropout: 0.0
-    pos_enc_mode: absolute
-    patch_size: [1, 16, 16]
-    stochastic_depth_rate: 0.0
-    use_derivatives: true
-    integrator: Euler
-  tokenizer:
-    tokenizer_mode: linear
-    detokenizer_mode: linear
-    tokenizer_overlap: 0
-    detokenizer_overlap: 0
-  residual: true
+  architecture: unet
+  model_size: UNet_S
+  n_time_steps: 4
+  integrate: false
 
 training:
   steps: 2000
