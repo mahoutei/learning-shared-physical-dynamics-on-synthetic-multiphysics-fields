@@ -32,12 +32,3 @@ dependencies = [
 dev = [
     "pytest",
 ]
-
-[[tool.uv.index]]
-url = "https://download.pytorch.org/whl/cu129"
-name = "pytorch-cu129"
-explicit = true
-
-[tool.uv.sources]
-torch = { index = "pytorch-cu129" }
-torchvision = { index = "pytorch-cu129" }
