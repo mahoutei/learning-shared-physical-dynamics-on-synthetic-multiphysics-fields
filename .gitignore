@@ -2,6 +2,9 @@
 
 /data/
 /results/
+/checkpoints/
+/corpus/
+/corpus_smoke/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
