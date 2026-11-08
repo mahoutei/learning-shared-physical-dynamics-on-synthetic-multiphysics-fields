@@ -421,6 +421,8 @@ def main() -> None:
     config["data"]["data_dir"] = str(data_root)
 
     device = resolve_device(config["training"].get("device", "auto"))
+    data_config = copy.deepcopy(config["data"])
+    data_config["data_dir"] = str(data_root)
     model_cfg = config["model"]
     arch = model_cfg.get("architecture", "gphyt")
     size = model_cfg.get("model_size") or model_cfg.get("transformer", {}).get("model_size")
@@ -439,8 +441,6 @@ def main() -> None:
     )
     print(f"[setup] device={device} steps={steps} data={data_root}")
 
-    data_config = copy.deepcopy(config["data"])
-    data_config["data_dir"] = str(data_root)
     train_loader, train_ds = make_train_loader(data_config, seed)
     print(f"[data] train windows={len(train_ds)} batches/epoch={len(train_loader)}")
 
