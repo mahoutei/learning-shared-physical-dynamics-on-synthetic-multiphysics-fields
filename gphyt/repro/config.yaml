@@ -1,4 +1,4 @@
-run_name: gphyt_s_baseline
+run_name: gphyt_s_direct_prediction
 seed: 0
 
 data:
@@ -40,7 +40,7 @@ model:
     detokenizer_mode: linear
     tokenizer_overlap: 0
     detokenizer_overlap: 0
-  residual: true
+  residual: false
 
 training:
   steps: 2000
