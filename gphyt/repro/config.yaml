@@ -1,4 +1,4 @@
-run_name: gphyt_s_baseline
+run_name: gphyt_s_context_2
 seed: 0
 
 data:
@@ -13,7 +13,7 @@ data:
     - thermal_convection
   height: 64
   width: 32
-  n_steps_input: 4
+  n_steps_input: 2
   n_steps_output: 2
   dt_stride: [1, 4]
   batch_size: 8
