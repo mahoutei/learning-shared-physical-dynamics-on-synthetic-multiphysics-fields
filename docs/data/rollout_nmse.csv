@@ -1,0 +1,241 @@
+variant,split,horizon,nmse_median
+GPhyT-S baseline,train,1,0.00013666037557413802
+GPhyT-S baseline,train,2,0.0007589384185848758
+GPhyT-S baseline,train,3,0.0018185157678090036
+GPhyT-S baseline,train,4,0.0033540401491336524
+GPhyT-S baseline,train,5,0.005370322149246931
+GPhyT-S baseline,train,6,0.007874883245676756
+GPhyT-S baseline,train,7,0.010877861641347408
+GPhyT-S baseline,train,8,0.014391361502930522
+GPhyT-S baseline,train,9,0.018429177347570658
+GPhyT-S baseline,train,10,0.023006498347967863
+GPhyT-S baseline,train,11,0.02813781425356865
+GPhyT-S baseline,train,12,0.033831510692834854
+GPhyT-S baseline,train,13,0.04008200019598007
+GPhyT-S baseline,train,14,0.046859679743647575
+GPhyT-S baseline,train,15,0.05410113465040922
+GPhyT-S baseline,train,16,0.061707232147455215
+GPhyT-S baseline,train,17,0.06955660413950682
+GPhyT-S baseline,train,18,0.07753337547183037
+GPhyT-S baseline,train,19,0.08555641025304794
+GPhyT-S baseline,train,20,0.09359525516629219
+GPhyT-S baseline,train,21,0.1016680896282196
+GPhyT-S baseline,train,22,0.10982783883810043
+GPhyT-S baseline,train,23,0.1181461364030838
+GPhyT-S baseline,train,24,0.12670081481337547
+GPhyT-S baseline,heldout,1,0.0012968114751856774
+GPhyT-S baseline,heldout,2,0.007801965752150863
+GPhyT-S baseline,heldout,3,0.023297092295251787
+GPhyT-S baseline,heldout,4,0.05082166916690767
+GPhyT-S baseline,heldout,5,0.09158512018620968
+GPhyT-S baseline,heldout,6,0.14494571462273598
+GPhyT-S baseline,heldout,7,0.20931685902178288
+GPhyT-S baseline,heldout,8,0.2832036502659321
+GPhyT-S baseline,heldout,9,0.36557485070079565
+GPhyT-S baseline,heldout,10,0.4556235084310174
+GPhyT-S baseline,heldout,11,0.5525117916986346
+GPhyT-S baseline,heldout,12,0.6554461140185595
+GPhyT-S baseline,heldout,13,0.76369190774858
+GPhyT-S baseline,heldout,14,0.8757905177772045
+GPhyT-S baseline,heldout,15,0.9833610206842422
+GPhyT-S baseline,heldout,16,1.0849486570805311
+GPhyT-S baseline,heldout,17,1.1618667244911194
+GPhyT-S baseline,heldout,18,1.2093727961182594
+GPhyT-S baseline,heldout,19,1.2341180071234703
+GPhyT-S baseline,heldout,20,1.2383041642606258
+GPhyT-S baseline,heldout,21,1.2263586893677711
+GPhyT-S baseline,heldout,22,1.203686784952879
+GPhyT-S baseline,heldout,23,1.1755989976227283
+GPhyT-S baseline,heldout,24,1.1466145142912865
+Direct prediction,train,1,0.003635046537965536
+Direct prediction,train,2,0.003086527343839407
+Direct prediction,train,3,0.021226385608315468
+Direct prediction,train,4,0.012690234463661909
+Direct prediction,train,5,0.07682337984442711
+Direct prediction,train,6,0.05941305123269558
+Direct prediction,train,7,0.298997700214386
+Direct prediction,train,8,0.20298735052347183
+Direct prediction,train,9,0.9448793828487396
+Direct prediction,train,10,0.9687996804714203
+Direct prediction,train,11,3.23773193359375
+Direct prediction,train,12,4.782025575637817
+Direct prediction,train,13,12.113562107086182
+Direct prediction,train,14,21.548377990722656
+Direct prediction,train,15,46.9430046081543
+Direct prediction,train,16,89.98412704467773
+Direct prediction,train,17,188.8768768310547
+Direct prediction,train,18,376.8796844482422
+Direct prediction,train,19,783.7674865722656
+Direct prediction,train,20,1598.2369384765625
+Direct prediction,train,21,3322.3232421875
+Direct prediction,train,22,6856.181396484375
+Direct prediction,train,23,13475.0751953125
+Direct prediction,train,24,25793.5771484375
+Direct prediction,heldout,1,0.5448304377496243
+Direct prediction,heldout,2,0.5208038239507005
+Direct prediction,heldout,3,0.5995979113504291
+Direct prediction,heldout,4,0.6368833887390792
+Direct prediction,heldout,5,0.920841608196497
+Direct prediction,heldout,6,1.2430648729205132
+Direct prediction,heldout,7,2.448078840970993
+Direct prediction,heldout,8,4.2106592655181885
+Direct prediction,heldout,9,9.183917880058289
+Direct prediction,heldout,10,17.39051365852356
+Direct prediction,heldout,11,37.51076936721802
+Direct prediction,heldout,12,73.86528015136719
+Direct prediction,heldout,13,153.8955841064453
+Direct prediction,heldout,14,297.88805770874023
+Direct prediction,heldout,15,589.2664108276367
+Direct prediction,heldout,16,1106.362564086914
+Direct prediction,heldout,17,2078.530242919922
+Direct prediction,heldout,18,3764.2933349609375
+Direct prediction,heldout,19,6784.308776855469
+Direct prediction,heldout,20,11988.225341796875
+Direct prediction,heldout,21,21198.07958984375
+Direct prediction,heldout,22,37368.6708984375
+Direct prediction,heldout,23,66466.2314453125
+Direct prediction,heldout,24,119326.87890625
+No derivatives,train,1,0.0005089118494652212
+No derivatives,train,2,0.0020567981991916895
+No derivatives,train,3,0.004691398818977177
+No derivatives,train,4,0.008477289462462068
+No derivatives,train,5,0.013481364119797945
+No derivatives,train,6,0.019663340412080288
+No derivatives,train,7,0.028101708739995956
+No derivatives,train,8,0.03902765642851591
+No derivatives,train,9,0.05305377021431923
+No derivatives,train,10,0.07077834382653236
+No derivatives,train,11,0.09273429214954376
+No derivatives,train,12,0.11856217682361603
+No derivatives,train,13,0.1390017792582512
+No derivatives,train,14,0.16110095381736755
+No derivatives,train,15,0.1849651336669922
+No derivatives,train,16,0.21415533125400543
+No derivatives,train,17,0.26470738649368286
+No derivatives,train,18,0.32783089578151703
+No derivatives,train,19,0.38604219257831573
+No derivatives,train,20,0.41583338379859924
+No derivatives,train,21,0.44547849893569946
+No derivatives,train,22,0.4816971868276596
+No derivatives,train,23,0.542116105556488
+No derivatives,train,24,0.6010691821575165
+No derivatives,heldout,1,0.0012694636534433812
+No derivatives,heldout,2,0.005110493628308177
+No derivatives,heldout,3,0.011630159569904208
+No derivatives,heldout,4,0.021002660505473614
+No derivatives,heldout,5,0.03511508274823427
+No derivatives,heldout,6,0.05511021427810192
+No derivatives,heldout,7,0.08272201381623745
+No derivatives,heldout,8,0.11964291334152222
+No derivatives,heldout,9,0.16733282804489136
+No derivatives,heldout,10,0.22695350646972656
+No derivatives,heldout,11,0.28229662775993347
+No derivatives,heldout,12,0.34486739337444305
+No derivatives,heldout,13,0.45322395861148834
+No derivatives,heldout,14,0.5677030086517334
+No derivatives,heldout,15,0.6818903386592865
+No derivatives,heldout,16,0.8085964918136597
+No derivatives,heldout,17,0.9436173439025879
+No derivatives,heldout,18,1.0841863751411438
+No derivatives,heldout,19,1.27516770362854
+No derivatives,heldout,20,1.3842413425445557
+No derivatives,heldout,21,1.4599770903587341
+No derivatives,heldout,22,1.5123358964920044
+No derivatives,heldout,23,1.5825694799423218
+No derivatives,heldout,24,1.6379848718643188
+UNet-S,train,1,0.007432093610987067
+UNet-S,train,2,0.00398421089630574
+UNet-S,train,3,0.03910440392792225
+UNet-S,train,4,0.02423167135566473
+UNet-S,train,5,0.27926528453826904
+UNet-S,train,6,0.2943210005760193
+UNet-S,train,7,0.8787298500537872
+UNet-S,train,8,0.9360448718070984
+UNet-S,train,9,1.2941550016403198
+UNet-S,train,10,1.507453441619873
+UNet-S,train,11,1.4950966835021973
+UNet-S,train,12,1.8143352270126343
+UNet-S,train,13,1.6560770273208618
+UNet-S,train,14,1.9401464462280273
+UNet-S,train,15,1.8759495615959167
+UNet-S,train,16,1.9743444919586182
+UNet-S,train,17,1.9970173239707947
+UNet-S,train,18,2.015195369720459
+UNet-S,train,19,2.1213340759277344
+UNet-S,train,20,1.9939852952957153
+UNet-S,train,21,2.157891869544983
+UNet-S,train,22,1.9892246723175049
+UNet-S,train,23,2.1701515913009644
+UNet-S,train,24,2.0546993017196655
+UNet-S,heldout,1,1.0715673118829727
+UNet-S,heldout,2,0.8552167885936797
+UNet-S,heldout,3,1.653025683015585
+UNet-S,heldout,4,1.4727763663977385
+UNet-S,heldout,5,1.8057706654071808
+UNet-S,heldout,6,1.8682393729686737
+UNet-S,heldout,7,1.955399990081787
+UNet-S,heldout,8,2.2363076210021973
+UNet-S,heldout,9,2.2543179392814636
+UNet-S,heldout,10,2.3543264865875244
+UNet-S,heldout,11,2.325937807559967
+UNet-S,heldout,12,2.399535357952118
+UNet-S,heldout,13,2.3489847779273987
+UNet-S,heldout,14,2.327464461326599
+UNet-S,heldout,15,2.3199071884155273
+UNet-S,heldout,16,2.244010627269745
+UNet-S,heldout,17,2.15932160615921
+UNet-S,heldout,18,2.2526081800460815
+UNet-S,heldout,19,2.1469523906707764
+UNet-S,heldout,20,2.101135015487671
+UNet-S,heldout,21,2.114704728126526
+UNet-S,heldout,22,1.8827601671218872
+UNet-S,heldout,23,2.0802056193351746
+UNet-S,heldout,24,1.6636472344398499
+Context 1,train,1,0.001940392074175179
+Context 1,train,2,0.007809423143044114
+Context 1,train,3,0.017586748115718365
+Context 1,train,4,0.031161840073764324
+Context 1,train,5,0.04839664697647095
+Context 1,train,6,0.06917023286223412
+Context 1,train,7,0.09338179975748062
+Context 1,train,8,0.12093089893460274
+Context 1,train,9,0.15168976038694382
+Context 1,train,10,0.1854638308286667
+Context 1,train,11,0.22194335609674454
+Context 1,train,12,0.2606590464711189
+Context 1,train,13,0.3009515106678009
+Context 1,train,14,0.3419632166624069
+Context 1,train,15,0.38267771899700165
+Context 1,train,16,0.42202484607696533
+Context 1,train,17,0.4590192884206772
+Context 1,train,18,0.4928572475910187
+Context 1,train,19,0.5229508876800537
+Context 1,train,20,0.5489473044872284
+Context 1,train,21,0.570753887295723
+Context 1,train,22,0.5885431617498398
+Context 1,train,23,0.6027129292488098
+Context 1,train,24,0.6138086318969727
+Context 1,heldout,1,0.002068512490950525
+Context 1,heldout,2,0.00801926082931459
+Context 1,heldout,3,0.017018234822899103
+Context 1,heldout,4,0.02846705075353384
+Context 1,heldout,5,0.04292820207774639
+Context 1,heldout,6,0.06170083023607731
+Context 1,heldout,7,0.08613499999046326
+Context 1,heldout,8,0.11688860133290291
+Context 1,heldout,9,0.1538638398051262
+Context 1,heldout,10,0.19647661596536636
+Context 1,heldout,11,0.24395520240068436
+Context 1,heldout,12,0.2955677658319473
+Context 1,heldout,13,0.3507743775844574
+Context 1,heldout,14,0.41120317578315735
+Context 1,heldout,15,0.480355441570282
+Context 1,heldout,16,0.5462515950202942
+Context 1,heldout,17,0.6014610230922699
+Context 1,heldout,18,0.6556196212768555
+Context 1,heldout,19,0.7121675610542297
+Context 1,heldout,20,0.7559175491333008
+Context 1,heldout,21,0.8104482591152191
+Context 1,heldout,22,0.8656324446201324
+Context 1,heldout,23,0.9192465543746948
+Context 1,heldout,24,0.9680462777614594
