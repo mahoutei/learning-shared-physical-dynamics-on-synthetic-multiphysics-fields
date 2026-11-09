@@ -1,6 +1,17 @@
 # Towards a Physics Foundation Model
 
+> **Independent reproduction note**
+>
+> This repository is a reduced-scale, independent reproduction study of
+> "Towards a Physics Foundation Model" (GPhyT). It is **not** the official
+> implementation and does not reproduce the paper's full-scale training runs.
+> Our contributions are a small synthetic multi-physics corpus, a minimal
+> training/evaluation harness, and controlled ablations at 64x32 resolution on
+> CPU. See [REPRODUCTION.md](REPRODUCTION.md) for the corpus, commands, and
+> measured results. The original paper, code, and weights are linked below.
+
 Paper: https://arxiv.org/abs/2509.13805
+Original code: https://github.com/FloWsnr/General-Physics-Transformer
 
 Blog post if you want to see some cool results: https://flowsnr.github.io/blog/physics-foundation-model/
 
