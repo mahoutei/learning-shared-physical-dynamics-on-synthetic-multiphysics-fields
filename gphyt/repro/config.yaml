@@ -1,4 +1,4 @@
-run_name: gphyt_s_baseline
+run_name: gphyt_s_derivative_heun
 seed: 0
 
 data:
@@ -40,7 +40,9 @@ model:
     detokenizer_mode: linear
     tokenizer_overlap: 0
     detokenizer_overlap: 0
-  residual: true
+  prediction_mode: derivative
+  integrator: Heun
+  step_size: 1.0
 
 training:
   steps: 2000
