@@ -6,8 +6,11 @@ goal is to test the paper's core architectural claims under a budget that fits a
 single T4 GPU on Google Colab (with a CPU fallback): a small synthetic
 multi-physics corpus, a 7.9M-parameter GPhyT-S, and controlled ablations. All
 seven reported training runs were executed on Colab T4 with the official Colab
-CLI (two T4 sessions). This does **not** reproduce the paper's 1.8 TB corpus,
-multi-GPU training, or full-scale benchmark numbers.
+CLI (two T4 sessions). A third T4 session handled the released-checkpoint
+evaluation. This does **not** reproduce the paper's 1.8 TB corpus, multi-GPU
+training, or full-scale benchmark numbers. As a separate transfer check, we also
+evaluate the released GPhyT-S/M/L/XL checkpoints zero-shot on a 256x128 version
+of the synthetic corpus; paper-scale benchmarks remain out of scope.
 
 Original paper: <https://arxiv.org/abs/2509.13805>  
 Original code: <https://github.com/FloWsnr/General-Physics-Transformer>  
@@ -149,6 +152,41 @@ Key observations:
   the lowest pooled h8 (0.113) but wins neither system: Context 8 is best on
   `wave` (0.0076) and Context 1 is best on `thermal_convection` (0.133).
 
+### Released-checkpoint transfer at 256x128
+
+The released checkpoints were loaded strictly after stripping the
+`module._orig_mod.` prefixes and evaluated at native 256x128 (512 tokens). The
+evaluation corpus has 4 train / 1 validation / 4 test trajectories and 29
+frames; z-score statistics come from its four training trajectories. Evaluation
+uses batch 1, four input frames, and a 24-step rollout over all six systems.
+This is zero-shot synthetic-domain transfer, not a held-out split of the
+released models' training data.
+
+| Model | Params | State tensors | h1 | h8 | h24 | Eval time | Peak GPU |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| GPhyT-S | 7,992,773 | 165 | **0.001652** | 0.168915 | 1.000584 | 9.6 s | 0.12 GB |
+| GPhyT-M | 111,597,317 | 165 | 0.004207 | 0.276754 | 0.874560 | 32.6 s | 0.57 GB |
+| GPhyT-L | 384,885,765 | 321 | 0.001796 | 0.220459 | 0.846636 | 85.3 s | 1.67 GB |
+| GPhyT-XL | 795,813,125 | 425 | 0.001880 | **0.156684** | **0.679890** | 156.5 s | 3.39 GB |
+
+Per-system h24 medians:
+
+| Model | Advection | Burgers | Incompressible NS | Sine-Gordon | Wave | Thermal |
+|---|---:|---:|---:|---:|---:|---:|
+| GPhyT-S | 1.609438 | **1.543170** | 0.093940 | 0.708727 | 0.888914 | **1.055033** |
+| GPhyT-M | 1.705814 | 1.988563 | 0.047564 | 0.784912 | 0.826753 | 1.170085 |
+| GPhyT-L | 1.490042 | 1.796777 | 0.058418 | 0.719075 | 0.779728 | 1.234888 |
+| GPhyT-XL | **1.475180** | 1.826200 | **0.025760** | **0.545785** | **0.537446** | 1.346042 |
+
+**Scaling helps long rollouts overall, but not uniformly.** Overall h24 falls
+from S (1.001) to M (0.875) to L (0.847) to XL (0.680), and XL is also best at
+h8; S remains best at h1. XL wins four of six systems at h24 (advection,
+incompressible NS, sine-Gordon, and wave), while S wins burgers and thermal
+convection. Thermal h24 degrades monotonically with scale
+(1.055 -> 1.170 -> 1.235 -> 1.346). M has a thermal h8 spike (8.745) that largely
+resolves by h24 (1.170). These are medians over four test trajectories per
+system. Data: `docs/data/released_scaling_256.csv`.
+
 ## Limitations
 
 - Synthetic 64x32 data and a 2,000-step budget are far below the paper's scale;
@@ -161,9 +199,9 @@ Key observations:
 - The corpus systems are simplified and low-resolution. Long-horizon failure on
   `advection` and `thermal_convection` may reflect data difficulty rather than
   architecture alone.
-- The released GPhyT-S checkpoint was verified to load strictly and match the
-  expected positional-encoding shape, but full released-checkpoint evaluation is
-  left for future work.
+- The released-checkpoint evaluation uses a separate 256x128, 29-frame, 4/1/4
+  corpus with normalization statistics from its four training trajectories. It
+  is zero-shot synthetic-domain transfer, not a paper-scale benchmark.
 - `training.amp` is present in the config but unused by the runner; all reported
   numbers are full-precision.
 
@@ -172,8 +210,12 @@ Key observations:
 - `gphyt/repro/` — corpus generators, Well writer, config, training/eval entry.
 - `scripts/colab_train.py` — one-variant runner for the official Colab CLI.
 - `scripts/colab_all.sh` — sequential all-variant launcher for one T4 session.
+- `scripts/eval_released.py` — strict released-checkpoint loader and eval entry.
+- `scripts/eval_corpus.py`, `scripts/build_eval_corpus.py` — 256x128 corpus
+  generator and CLI.
 - Experiment branches `orx/*` — one branch per node in the experiment tree;
   each records the exact code that produced its run.
 - `repro` (this branch) — publication branch with these notes.
 - `docs/data/rollout_nmse_t4.csv` — T4 rollout measurements used by the figure.
 - `docs/data/rollout_nmse_cpu.csv` — earlier CPU measurements.
+- `docs/data/released_scaling_256.csv` — released S/M/L/XL 256x128 measurements.
