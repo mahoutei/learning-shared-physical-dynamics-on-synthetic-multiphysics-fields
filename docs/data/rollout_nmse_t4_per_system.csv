@@ -1,0 +1,1009 @@
+variant,run_name,system,split,horizon,nmse_median,nmse_mean,n_samples
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,1,0.0002778572161332704,0.0003097269691352267,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,2,0.0017544534639455378,0.002012538578128442,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,3,0.005478558596223593,0.006427206099033356,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,4,0.01247014058753848,0.014906646683812141,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,5,0.023635605350136757,0.028733031591400504,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,6,0.0397887509316206,0.04908229038119316,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,7,0.06172115541994572,0.07701512519270182,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,8,0.09024575352668762,0.11348745785653591,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,9,0.12613094225525856,0.15933964028954506,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,10,0.16998035460710526,0.21524855121970177,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,11,0.22216159850358963,0.28167469426989555,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,12,0.2828015759587288,0.35883135348558426,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,13,0.35183241963386536,0.4466884136199951,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,14,0.429068461060524,0.5450083091855049,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,15,0.5142772942781448,0.6533880829811096,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,16,0.6072042286396027,0.771277442574501,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,17,0.7075380682945251,0.8979660198092461,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,18,0.8148409724235535,1.0325453877449036,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,19,0.9284878671169281,1.1738751977682114,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,20,1.0476481914520264,1.3205753713846207,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,21,1.1713209748268127,1.471059799194336,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,22,1.2984192967414856,1.6236234158277512,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,23,1.4278792142868042,1.776569351553917,4
+GPhyT-S baseline,gphyt_s_baseline_colab,advection,train,24,1.5587530136108398,1.9283344596624374,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,1,0.0002843759430106729,0.00028157087217550725,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,2,0.0012952989782206714,0.0012807634775526822,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,3,0.0031254724599421024,0.0030954534304328263,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,4,0.00580689194612205,0.005753666628152132,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,5,0.009351436514407396,0.009268424939364195,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,6,0.013765496201813221,0.013651192421093583,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,7,0.019055324606597424,0.01891548838466406,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,8,0.02522727381438017,0.025075989309698343,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,9,0.032290203496813774,0.03214972140267491,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,10,0.040257520973682404,0.040156979113817215,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,11,0.049148738384246826,0.049120583571493626,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,12,0.05898796021938324,0.05906205251812935,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,13,0.06980082392692566,0.06999585032463074,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,14,0.0816124901175499,0.08192313462495804,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,15,0.09444676339626312,0.09482614882290363,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,16,0.10832429677248001,0.10866546630859375,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,17,0.12325787916779518,0.12338305823504925,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,18,0.13924528658390045,0.13891108334064484,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,19,0.15626274794340134,0.15518193691968918,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,20,0.17426197230815887,0.17213446646928787,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,21,0.1931731402873993,0.1897161789238453,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,22,0.2125072032213211,0.20788444578647614,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,23,0.23144669830799103,0.2266099527478218,4
+GPhyT-S baseline,gphyt_s_baseline_colab,burgers,train,24,0.25076785683631897,0.2458818033337593,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,1,5.0363059926894493e-05,5.241512008069549e-05,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,2,0.0002269225660711527,0.00023658071222598664,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,3,0.0005478152888827026,0.0005717687527067028,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,4,0.0010247107711620629,0.0010693489748518914,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,5,0.0016567966667935252,0.0017286809743382037,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,6,0.002443398581817746,0.0025489163235761225,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,7,0.003382998169399798,0.003528087050653994,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,8,0.004472191445529461,0.004662420833483338,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,9,0.005707909585908055,0.005948439706116915,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,10,0.0070879654958844185,0.007383519317954779,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,11,0.008611321449279785,0.008966135093942285,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,12,0.010277434717863798,0.010695316130295396,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,13,0.012086121365427971,0.01257040142081678,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,14,0.014037404209375381,0.014590962557122111,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,15,0.016131908632814884,0.016757204430177808,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,16,0.01837095059454441,0.019070067442953587,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,17,0.020756345242261887,0.021531136706471443,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,18,0.023290260694921017,0.024142443668097258,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,19,0.025975246913731098,0.026906426064670086,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,20,0.028814048506319523,0.029825825709849596,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,21,0.03180964570492506,0.03290383890271187,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,22,0.03496549278497696,0.03614411409944296,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,23,0.03828549012541771,0.03955093305557966,4
+GPhyT-S baseline,gphyt_s_baseline_colab,incompressible_ns,train,24,0.04177374951541424,0.04312879964709282,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,1,6.408978515537456e-05,6.912999924679752e-05,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,2,0.0002705146180232987,0.00029542643824242987,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,3,0.0006209213170222938,0.0006829384801676497,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,4,0.0011030964087694883,0.0012198349431855604,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,5,0.0017016855999827385,0.0018920838774647564,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,6,0.0024088717764243484,0.002690843597520143,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,7,0.0032153388019651175,0.0036060892161913216,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,8,0.004112695576623082,0.0046281987451948225,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,9,0.005094964988529682,0.0057492576306685805,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,10,0.0061579926405102015,0.006963426829315722,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,11,0.007301697973161936,0.008268487872555852,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,12,0.008527555968612432,0.009663363453000784,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,13,0.00983650516718626,0.011146077886223793,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,14,0.011228964664041996,0.01271377643570304,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,15,0.012705206405371428,0.014363401336595416,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,16,0.01426615146920085,0.016092564212158322,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,17,0.01591318938881159,0.017899346072226763,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,18,0.017647016793489456,0.01978133642114699,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,19,0.019466777332127094,0.02173488214612007,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,20,0.0213699322193861,0.02375515177845955,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,21,0.02335246279835701,0.025836465880274773,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,22,0.025409004651010036,0.027972429059445858,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,23,0.02753265667706728,0.030155808199197054,4
+GPhyT-S baseline,gphyt_s_baseline_colab,sine_gordon,train,24,0.029714493080973625,0.03237810870632529,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,1,0.00014885738346492872,0.0001684672897681594,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,2,0.0006114989810157567,0.0007148967415560037,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,3,0.0014068781165406108,0.0016668380121700466,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,4,0.0025179923977702856,0.003005785110872239,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,5,0.003926528268493712,0.004701615951489657,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,6,0.005651942687109113,0.006736050010658801,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,7,0.007672036532312632,0.00908311188686639,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,8,0.009970561135560274,0.011719195870682597,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,9,0.012542134150862694,0.014625970972701907,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,10,0.01537830987945199,0.01778426836244762,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,11,0.018476931378245354,0.02118119364604354,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,12,0.02183549292385578,0.02480471320450306,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,13,0.02544864732772112,0.028641533572226763,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,14,0.02931099198758602,0.03267894685268402,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,15,0.033416273072361946,0.03690451057627797,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,16,0.03775976039469242,0.041307822335511446,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,17,0.0423381794244051,0.04588030278682709,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,18,0.047147877514362335,0.05061354208737612,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,19,0.05218430608510971,0.05549862142652273,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,20,0.05744161456823349,0.06052565015852451,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,21,0.06291269697248936,0.06568385101854801,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,22,0.06858903728425503,0.07096133846789598,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,23,0.07445960864424706,0.07634428888559341,4
+GPhyT-S baseline,gphyt_s_baseline_colab,wave,heldout,24,0.0805097259581089,0.08181600924581289,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,1,0.0024805659195408225,0.0024845805601216853,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,2,0.015681784134358168,0.015714139910414815,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,3,0.04796615429222584,0.04809258785098791,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,4,0.10575568303465843,0.1061098501086235,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,5,0.19149866700172424,0.19229313358664513,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,6,0.3041241466999054,0.3056354522705078,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,7,0.4410512000322342,0.44356588274240494,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,8,0.599894255399704,0.6036513298749924,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,9,0.7787153720855713,0.7838524281978607,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,10,0.9753134548664093,0.9818401485681534,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,11,1.1866986751556396,1.1944982409477234,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,12,1.4089970588684082,1.4178600013256073,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,13,1.6372883915901184,1.6469770967960358,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,14,1.8661007285118103,1.8751893937587738,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,15,2.089951515197754,2.0930840969085693,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,16,2.2825398445129395,2.2883753776550293,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,17,2.4339431524276733,2.447653591632843,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,18,2.5428943634033203,2.55969500541687,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,19,2.5977715253829956,2.618981719017029,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,20,2.60120165348053,2.6276239156723022,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,21,2.5629351139068604,2.5944884419441223,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,22,2.4962295293807983,2.532071828842163,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,23,2.4139769077301025,2.4530120491981506,4
+GPhyT-S baseline,gphyt_s_baseline_colab,thermal_convection,heldout,24,2.3265533447265625,2.36791855096817,4
+Context 1,gphyt_s_context_1,advection,train,1,0.00833128928206861,0.008031701785512269,4
+Context 1,gphyt_s_context_1,advection,train,2,0.03654145449399948,0.03512446768581867,4
+Context 1,gphyt_s_context_1,advection,train,3,0.08949755504727364,0.08536307606846094,4
+Context 1,gphyt_s_context_1,advection,train,4,0.16955820098519325,0.16030978225171566,4
+Context 1,gphyt_s_context_1,advection,train,5,0.26115594059228897,0.25404466688632965,4
+Context 1,gphyt_s_context_1,advection,train,6,0.3546949774026871,0.3560813292860985,4
+Context 1,gphyt_s_context_1,advection,train,7,0.44803935289382935,0.46264614164829254,4
+Context 1,gphyt_s_context_1,advection,train,8,0.5444834977388382,0.5737714022397995,4
+Context 1,gphyt_s_context_1,advection,train,9,0.6469469368457794,0.68939408659935,4
+Context 1,gphyt_s_context_1,advection,train,10,0.7567859292030334,0.8090769648551941,4
+Context 1,gphyt_s_context_1,advection,train,11,0.87315633893013,0.9303527921438217,4
+Context 1,gphyt_s_context_1,advection,train,12,0.9918696582317352,1.049168884754181,4
+Context 1,gphyt_s_context_1,advection,train,13,1.1059514284133911,1.160984754562378,4
+Context 1,gphyt_s_context_1,advection,train,14,1.2093778252601624,1.2628074884414673,4
+Context 1,gphyt_s_context_1,advection,train,15,1.3002136945724487,1.3540447056293488,4
+Context 1,gphyt_s_context_1,advection,train,16,1.37979257106781,1.435768872499466,4
+Context 1,gphyt_s_context_1,advection,train,17,1.4510533809661865,1.5097043812274933,4
+Context 1,gphyt_s_context_1,advection,train,18,1.5152583122253418,1.57646843791008,4
+Context 1,gphyt_s_context_1,advection,train,19,1.5710051655769348,1.6351344287395477,4
+Context 1,gphyt_s_context_1,advection,train,20,1.6165364980697632,1.6846157610416412,4
+Context 1,gphyt_s_context_1,advection,train,21,1.6514670252799988,1.7247192859649658,4
+Context 1,gphyt_s_context_1,advection,train,22,1.6765204668045044,1.7559843063354492,4
+Context 1,gphyt_s_context_1,advection,train,23,1.6928141713142395,1.7791866958141327,4
+Context 1,gphyt_s_context_1,advection,train,24,1.7017661333084106,1.7953051626682281,4
+Context 1,gphyt_s_context_1,burgers,train,1,0.0012291368329897523,0.0013243699504528195,4
+Context 1,gphyt_s_context_1,burgers,train,2,0.004959739977493882,0.005314292851835489,4
+Context 1,gphyt_s_context_1,burgers,train,3,0.011220996733754873,0.011933388421311975,4
+Context 1,gphyt_s_context_1,burgers,train,4,0.02001041453331709,0.02108404692262411,4
+Context 1,gphyt_s_context_1,burgers,train,5,0.03130537550896406,0.032643786165863276,4
+Context 1,gphyt_s_context_1,burgers,train,6,0.04505043663084507,0.04648288153111935,4
+Context 1,gphyt_s_context_1,burgers,train,7,0.06112603470683098,0.06245244201272726,4
+Context 1,gphyt_s_context_1,burgers,train,8,0.07932384312152863,0.0803658701479435,4
+Context 1,gphyt_s_context_1,burgers,train,9,0.09935083240270615,0.09999505244195461,4
+Context 1,gphyt_s_context_1,burgers,train,10,0.12086417153477669,0.12108257412910461,4
+Context 1,gphyt_s_context_1,burgers,train,11,0.1435219794511795,0.14336270838975906,4
+Context 1,gphyt_s_context_1,burgers,train,12,0.1670294627547264,0.1665840782225132,4
+Context 1,gphyt_s_context_1,burgers,train,13,0.1911672055721283,0.19052616506814957,4
+Context 1,gphyt_s_context_1,burgers,train,14,0.21579904109239578,0.21500787138938904,4
+Context 1,gphyt_s_context_1,burgers,train,15,0.24086341261863708,0.23989538848400116,4
+Context 1,gphyt_s_context_1,burgers,train,16,0.26635606586933136,0.2651214897632599,4
+Context 1,gphyt_s_context_1,burgers,train,17,0.2923109531402588,0.29070406034588814,4
+Context 1,gphyt_s_context_1,burgers,train,18,0.31878337264060974,0.316734254360199,4
+Context 1,gphyt_s_context_1,burgers,train,19,0.3458372801542282,0.34333012998104095,4
+Context 1,gphyt_s_context_1,burgers,train,20,0.37353360652923584,0.37058908492326736,4
+Context 1,gphyt_s_context_1,burgers,train,21,0.4019189924001694,0.39856285601854324,4
+Context 1,gphyt_s_context_1,burgers,train,22,0.43101394176483154,0.42725304514169693,4
+Context 1,gphyt_s_context_1,burgers,train,23,0.4608028084039688,0.45661578327417374,4
+Context 1,gphyt_s_context_1,burgers,train,24,0.49122823774814606,0.486569307744503,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,1,0.00017477509391028434,0.00023066655921866186,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,2,0.0006806369929108769,0.0008948886097641662,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,3,0.001492729235906154,0.0019544071110431105,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,4,0.0025896410224959254,0.0033751731098163873,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,5,0.003953025443479419,0.005126989912241697,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,6,0.005567341344431043,0.007183251087553799,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,7,0.0074196497444063425,0.009520763298496604,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,8,0.009499439503997564,0.012119631632231176,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,9,0.011798432096838951,0.014963097870349884,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,10,0.014310529455542564,0.018037512665614486,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,11,0.01703163981437683,0.021332256495952606,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,12,0.01995963789522648,0.02483970788307488,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,13,0.02309413254261017,0.02855504397302866,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,14,0.026436484418809414,0.032476290594786406,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,15,0.029989592730998993,0.03660399606451392,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,16,0.03375789895653725,0.04094132035970688,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,17,0.03774714656174183,0.04549373826012015,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,18,0.0419643335044384,0.05026890430599451,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,19,0.04641758091747761,0.055276403203606606,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,20,0.051116105169057846,0.060527535155415535,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,21,0.056070128455758095,0.0660350788384676,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,22,0.06129075214266777,0.0718131372705102,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,23,0.06678985618054867,0.07787665911018848,4
+Context 1,gphyt_s_context_1,incompressible_ns,train,24,0.07258021272718906,0.0842413455247879,4
+Context 1,gphyt_s_context_1,sine_gordon,train,1,0.0023524872958660126,0.0023506369325332344,4
+Context 1,gphyt_s_context_1,sine_gordon,train,2,0.009630742948502302,0.00961939338594675,4
+Context 1,gphyt_s_context_1,sine_gordon,train,3,0.022105230018496513,0.022074997425079346,4
+Context 1,gphyt_s_context_1,sine_gordon,train,4,0.03995523974299431,0.03989826235920191,4
+Context 1,gphyt_s_context_1,sine_gordon,train,5,0.06326237134635448,0.06317220721393824,4
+Context 1,gphyt_s_context_1,sine_gordon,train,6,0.09200926125049591,0.09187761321663857,4
+Context 1,gphyt_s_context_1,sine_gordon,train,7,0.12607942894101143,0.12589066289365292,4
+Context 1,gphyt_s_context_1,sine_gordon,train,8,0.16525249928236008,0.16497767344117165,4
+Context 1,gphyt_s_context_1,sine_gordon,train,9,0.20918864011764526,0.20878083258867264,4
+Context 1,gphyt_s_context_1,sine_gordon,train,10,0.25739873200654984,0.25679054111242294,4
+Context 1,gphyt_s_context_1,sine_gordon,train,11,0.3092022091150284,0.3083048239350319,4
+Context 1,gphyt_s_context_1,sine_gordon,train,12,0.3636816591024399,0.3623849079012871,4
+Context 1,gphyt_s_context_1,sine_gordon,train,13,0.4196499288082123,0.4178241640329361,4
+Context 1,gphyt_s_context_1,sine_gordon,train,14,0.47565025091171265,0.4731525108218193,4
+Context 1,gphyt_s_context_1,sine_gordon,train,15,0.5300062000751495,0.5266915336251259,4
+Context 1,gphyt_s_context_1,sine_gordon,train,16,0.5809270739555359,0.5766656696796417,4
+Context 1,gphyt_s_context_1,sine_gordon,train,17,0.6266655623912811,0.6213604062795639,4
+Context 1,gphyt_s_context_1,sine_gordon,train,18,0.665699303150177,0.6593010872602463,4
+Context 1,gphyt_s_context_1,sine_gordon,train,19,0.696902722120285,0.6894180923700333,4
+Context 1,gphyt_s_context_1,sine_gordon,train,20,0.719666451215744,0.7111586183309555,4
+Context 1,gphyt_s_context_1,sine_gordon,train,21,0.7339366972446442,0.7245193719863892,4
+Context 1,gphyt_s_context_1,sine_gordon,train,22,0.7397813498973846,0.7299884259700775,4
+Context 1,gphyt_s_context_1,sine_gordon,train,23,0.7375379204750061,0.7284213304519653,4
+Context 1,gphyt_s_context_1,sine_gordon,train,24,0.7292411029338837,0.7208897322416306,4
+Context 1,gphyt_s_context_1,wave,heldout,1,0.002320694620721042,0.0023993959766812623,4
+Context 1,gphyt_s_context_1,wave,heldout,2,0.009426180738955736,0.009751982754096389,4
+Context 1,gphyt_s_context_1,wave,heldout,3,0.02147946786135435,0.022229993250221014,4
+Context 1,gphyt_s_context_1,wave,heldout,4,0.038568442687392235,0.03991780802607536,4
+Context 1,gphyt_s_context_1,wave,heldout,5,0.060703884810209274,0.06280755624175072,4
+Context 1,gphyt_s_context_1,wave,heldout,6,0.08782145008444786,0.09080077335238457,4
+Context 1,gphyt_s_context_1,wave,heldout,7,0.11978446319699287,0.12371267937123775,4
+Context 1,gphyt_s_context_1,wave,heldout,8,0.1563836932182312,0.16127434000372887,4
+Context 1,gphyt_s_context_1,wave,heldout,9,0.19733022898435593,0.20312732830643654,4
+Context 1,gphyt_s_context_1,wave,heldout,10,0.24223848432302475,0.24880722537636757,4
+Context 1,gphyt_s_context_1,wave,heldout,11,0.29059772193431854,0.29771483689546585,4
+Context 1,gphyt_s_context_1,wave,heldout,12,0.3417354226112366,0.3490801900625229,4
+Context 1,gphyt_s_context_1,wave,heldout,13,0.39477862417697906,0.40192924439907074,4
+Context 1,gphyt_s_context_1,wave,heldout,14,0.448625385761261,0.4550667181611061,4
+Context 1,gphyt_s_context_1,wave,heldout,15,0.5019402951002121,0.5070902332663536,4
+Context 1,gphyt_s_context_1,wave,heldout,16,0.5531899929046631,0.5564485415816307,4
+Context 1,gphyt_s_context_1,wave,heldout,17,0.6007299423217773,0.6015496999025345,4
+Context 1,gphyt_s_context_1,wave,heldout,18,0.6429507434368134,0.64091756939888,4
+Context 1,gphyt_s_context_1,wave,heldout,19,0.6784704923629761,0.6733732372522354,4
+Context 1,gphyt_s_context_1,wave,heldout,20,0.7063361406326294,0.6981999576091766,4
+Context 1,gphyt_s_context_1,wave,heldout,21,0.7261653542518616,0.7152341902256012,4
+Context 1,gphyt_s_context_1,wave,heldout,22,0.7381726205348969,0.724847748875618,4
+Context 1,gphyt_s_context_1,wave,heldout,23,0.743067592382431,0.7278285026550293,4
+Context 1,gphyt_s_context_1,wave,heldout,24,0.741876482963562,0.7252094596624374,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,1,0.0020090241450816393,0.0020043844706378877,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,2,0.006910038646310568,0.006923749693669379,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,3,0.013053448870778084,0.013088030740618706,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,4,0.02126365713775158,0.02132534421980381,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,5,0.034915925934910774,0.0350313987582922,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,6,0.057476675137877464,0.05767462216317654,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,7,0.09041839838027954,0.09071601741015911,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,8,0.13307418674230576,0.13348346948623657,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,9,0.18333850055933,0.18388530239462852,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,10,0.23848021775484085,0.23919831961393356,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,11,0.2959202080965042,0.2968127354979515,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,12,0.35374268889427185,0.3547263517975807,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,13,0.4108729511499405,0.41175924986600876,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,14,0.4671934098005295,0.4677026867866516,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,15,0.5238142311573029,0.523579441010952,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,16,0.5833706259727478,0.581887423992157,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,17,0.6499817967414856,0.6464816480875015,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,18,0.7282669246196747,0.7216553688049316,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,19,0.8213106393814087,0.8103406131267548,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,20,0.9285618364810944,0.9122546315193176,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,21,1.0449499487876892,1.0231289118528366,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,22,1.1618216037750244,1.135527640581131,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,23,1.2693769931793213,1.2408557832241058,4
+Context 1,gphyt_s_context_1,thermal_convection,heldout,24,1.3594959378242493,1.3316340148448944,4
+Context 2,gphyt_s_context_2,advection,train,1,0.00036889656621497124,0.000365794068784453,4
+Context 2,gphyt_s_context_2,advection,train,2,0.002446886384859681,0.0024231589632108808,4
+Context 2,gphyt_s_context_2,advection,train,3,0.008019678993150592,0.0079143475741148,4
+Context 2,gphyt_s_context_2,advection,train,4,0.018979773856699467,0.01872990163974464,4
+Context 2,gphyt_s_context_2,advection,train,5,0.03712697513401508,0.03675203584134579,4
+Context 2,gphyt_s_context_2,advection,train,6,0.0637957751750946,0.06361111672595143,4
+Context 2,gphyt_s_context_2,advection,train,7,0.09987935051321983,0.10066853184252977,4
+Context 2,gphyt_s_context_2,advection,train,8,0.1455172561109066,0.14882063120603561,4
+Context 2,gphyt_s_context_2,advection,train,9,0.2004914954304695,0.20869026333093643,4
+Context 2,gphyt_s_context_2,advection,train,10,0.26397455483675003,0.28043073415756226,4
+Context 2,gphyt_s_context_2,advection,train,11,0.3350757956504822,0.3639763779938221,4
+Context 2,gphyt_s_context_2,advection,train,12,0.4124726206064224,0.45871851593255997,4
+Context 2,gphyt_s_context_2,advection,train,13,0.4949009567499161,0.5637708753347397,4
+Context 2,gphyt_s_context_2,advection,train,14,0.5807701647281647,0.6776533722877502,4
+Context 2,gphyt_s_context_2,advection,train,15,0.6685786843299866,0.7986984401941299,4
+Context 2,gphyt_s_context_2,advection,train,16,0.7740824222564697,0.9248842298984528,4
+Context 2,gphyt_s_context_2,advection,train,17,0.884545087814331,1.054330289363861,4
+Context 2,gphyt_s_context_2,advection,train,18,0.9963332712650299,1.1851912885904312,4
+Context 2,gphyt_s_context_2,advection,train,19,1.1080346405506134,1.3159634172916412,4
+Context 2,gphyt_s_context_2,advection,train,20,1.2186244130134583,1.4453465938568115,4
+Context 2,gphyt_s_context_2,advection,train,21,1.3272807002067566,1.5722915083169937,4
+Context 2,gphyt_s_context_2,advection,train,22,1.4335553646087646,1.6959833800792694,4
+Context 2,gphyt_s_context_2,advection,train,23,1.5370977520942688,1.8157359212636948,4
+Context 2,gphyt_s_context_2,advection,train,24,1.6378159523010254,1.931142970919609,4
+Context 2,gphyt_s_context_2,burgers,train,1,0.0002600688676466234,0.0002526582684367895,4
+Context 2,gphyt_s_context_2,burgers,train,2,0.0011135960230603814,0.001112725178245455,4
+Context 2,gphyt_s_context_2,burgers,train,3,0.002702640718780458,0.0027190848486498,4
+Context 2,gphyt_s_context_2,burgers,train,4,0.0050310606602579355,0.005094722844660282,4
+Context 2,gphyt_s_context_2,burgers,train,5,0.008148193126544356,0.008285626186989248,4
+Context 2,gphyt_s_context_2,burgers,train,6,0.012278854381293058,0.012290239566937089,4
+Context 2,gphyt_s_context_2,burgers,train,7,0.01735909190028906,0.0171387386508286,4
+Context 2,gphyt_s_context_2,burgers,train,8,0.023386276327073574,0.022846002597361803,4
+Context 2,gphyt_s_context_2,burgers,train,9,0.030170409008860588,0.029450143221765757,4
+Context 2,gphyt_s_context_2,burgers,train,10,0.0378968995064497,0.03698418661952019,4
+Context 2,gphyt_s_context_2,burgers,train,11,0.04660695604979992,0.04549352265894413,4
+Context 2,gphyt_s_context_2,burgers,train,12,0.05633215419948101,0.055018278770148754,4
+Context 2,gphyt_s_context_2,burgers,train,13,0.06710902974009514,0.06560136657208204,4
+Context 2,gphyt_s_context_2,burgers,train,14,0.07895566150546074,0.07727575208991766,4
+Context 2,gphyt_s_context_2,burgers,train,15,0.09187811613082886,0.09006732329726219,4
+Context 2,gphyt_s_context_2,burgers,train,16,0.10584573075175285,0.10398321785032749,4
+Context 2,gphyt_s_context_2,burgers,train,17,0.12079329788684845,0.11901256442070007,4
+Context 2,gphyt_s_context_2,burgers,train,18,0.13661055266857147,0.13512181118130684,4
+Context 2,gphyt_s_context_2,burgers,train,19,0.1531667485833168,0.15226593986153603,4
+Context 2,gphyt_s_context_2,burgers,train,20,0.17033138126134872,0.1703982725739479,4
+Context 2,gphyt_s_context_2,burgers,train,21,0.18800538033246994,0.1894850730895996,4
+Context 2,gphyt_s_context_2,burgers,train,22,0.20612657815217972,0.20950891077518463,4
+Context 2,gphyt_s_context_2,burgers,train,23,0.22466891258955002,0.23046981915831566,4
+Context 2,gphyt_s_context_2,burgers,train,24,0.2436324581503868,0.25238339975476265,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,1,4.700653153122403e-05,4.518696823652135e-05,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,2,0.00022435202117776498,0.00021367587396525778,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,3,0.0005545992462430149,0.0005256666772766039,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,4,0.001039502356434241,0.0009816857782425359,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,5,0.0016748065827414393,0.0015774941712152213,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,6,0.0024538839934393764,0.002306695969309658,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,7,0.0033706314861774445,0.0031637207721360028,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,8,0.004419499542564154,0.004143468919210136,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,9,0.00559618603438139,0.005242062383331358,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,10,0.006897191982716322,0.006456359289586544,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,11,0.008319965563714504,0.00778414448723197,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,12,0.009862495120614767,0.009223749511875212,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,13,0.011523350141942501,0.01077417319174856,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,14,0.013301458675414324,0.01243480946868658,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,15,0.015196067281067371,0.014205547515302896,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,16,0.017206573858857155,0.016086610732600093,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,17,0.019332509487867355,0.018078589579090476,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,18,0.021573541685938835,0.020182397682219744,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,19,0.023929466493427753,0.022399304900318384,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,20,0.026400324888527393,0.02473099110648036,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,21,0.028986464254558086,0.027179667726159096,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,22,0.031688652001321316,0.0297480677254498,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,23,0.03450834937393665,0.0324396132491529,4
+Context 2,gphyt_s_context_2,incompressible_ns,train,24,0.03744776360690594,0.03525845520198345,4
+Context 2,gphyt_s_context_2,sine_gordon,train,1,7.934909444884397e-05,8.167987652996089e-05,4
+Context 2,gphyt_s_context_2,sine_gordon,train,2,0.0003460957086645067,0.0003562807178241201,4
+Context 2,gphyt_s_context_2,sine_gordon,train,3,0.0008105970046017319,0.0008390158036490902,4
+Context 2,gphyt_s_context_2,sine_gordon,train,4,0.001476263569202274,0.0015246786060743034,4
+Context 2,gphyt_s_context_2,sine_gordon,train,5,0.002347719040699303,0.0024177106679417193,4
+Context 2,gphyt_s_context_2,sine_gordon,train,6,0.00344648165628314,0.003509645233862102,4
+Context 2,gphyt_s_context_2,sine_gordon,train,7,0.004791332641616464,0.004815683932974935,4
+Context 2,gphyt_s_context_2,sine_gordon,train,8,0.00634932704269886,0.006332866381853819,4
+Context 2,gphyt_s_context_2,sine_gordon,train,9,0.008017297368496656,0.008093031705357134,4
+Context 2,gphyt_s_context_2,sine_gordon,train,10,0.009843713603913784,0.010096332989633083,4
+Context 2,gphyt_s_context_2,sine_gordon,train,11,0.011898302473127842,0.012388918083161116,4
+Context 2,gphyt_s_context_2,sine_gordon,train,12,0.014110892545431852,0.014964991947636008,4
+Context 2,gphyt_s_context_2,sine_gordon,train,13,0.016580861993134022,0.017879850463941693,4
+Context 2,gphyt_s_context_2,sine_gordon,train,14,0.019202173687517643,0.02111147018149495,4
+Context 2,gphyt_s_context_2,sine_gordon,train,15,0.022107848897576332,0.02472030371427536,4
+Context 2,gphyt_s_context_2,sine_gordon,train,16,0.025146879255771637,0.02866015350446105,4
+Context 2,gphyt_s_context_2,sine_gordon,train,17,0.028492017649114132,0.03299649013206363,4
+Context 2,gphyt_s_context_2,sine_gordon,train,18,0.031943731009960175,0.037655492313206196,4
+Context 2,gphyt_s_context_2,sine_gordon,train,19,0.035720156505703926,0.04271172033622861,4
+Context 2,gphyt_s_context_2,sine_gordon,train,20,0.03957468271255493,0.04806454945355654,4
+Context 2,gphyt_s_context_2,sine_gordon,train,21,0.04377155192196369,0.05380296241492033,4
+Context 2,gphyt_s_context_2,sine_gordon,train,22,0.048511773347854614,0.05980194080621004,4
+Context 2,gphyt_s_context_2,sine_gordon,train,23,0.054097890853881836,0.06616560090333223,4
+Context 2,gphyt_s_context_2,sine_gordon,train,24,0.06006884202361107,0.07274565193802118,4
+Context 2,gphyt_s_context_2,wave,heldout,1,0.0001389327590004541,0.0001541944748169044,4
+Context 2,gphyt_s_context_2,wave,heldout,2,0.0006294799386523664,0.0007174942438723519,4
+Context 2,gphyt_s_context_2,wave,heldout,3,0.0015618826728314161,0.0017948476306628436,4
+Context 2,gphyt_s_context_2,wave,heldout,4,0.0029460068326443434,0.0034258238738402724,4
+Context 2,gphyt_s_context_2,wave,heldout,5,0.004849673481658101,0.005664611700922251,4
+Context 2,gphyt_s_context_2,wave,heldout,6,0.007236955687403679,0.008505440666340292,4
+Context 2,gphyt_s_context_2,wave,heldout,7,0.010203373152762651,0.012002208037301898,4
+Context 2,gphyt_s_context_2,wave,heldout,8,0.013678702060133219,0.016124269925057888,4
+Context 2,gphyt_s_context_2,wave,heldout,9,0.017814552411437035,0.020946616539731622,4
+Context 2,gphyt_s_context_2,wave,heldout,10,0.022508736699819565,0.026417373213917017,4
+Context 2,gphyt_s_context_2,wave,heldout,11,0.027975773438811302,0.03263546572998166,4
+Context 2,gphyt_s_context_2,wave,heldout,12,0.03409380838274956,0.03953194338828325,4
+Context 2,gphyt_s_context_2,wave,heldout,13,0.041110241785645485,0.04721277952194214,4
+Context 2,gphyt_s_context_2,wave,heldout,14,0.0489168893545866,0.05560718849301338,4
+Context 2,gphyt_s_context_2,wave,heldout,15,0.05823669023811817,0.06479049101471901,4
+Context 2,gphyt_s_context_2,wave,heldout,16,0.0686066672205925,0.07470853067934513,4
+Context 2,gphyt_s_context_2,wave,heldout,17,0.08010270446538925,0.08536890149116516,4
+Context 2,gphyt_s_context_2,wave,heldout,18,0.09270333871245384,0.09673968330025673,4
+Context 2,gphyt_s_context_2,wave,heldout,19,0.10633857548236847,0.10875599645078182,4
+Context 2,gphyt_s_context_2,wave,heldout,20,0.12100857496261597,0.12139848433434963,4
+Context 2,gphyt_s_context_2,wave,heldout,21,0.13652297481894493,0.13454590737819672,4
+Context 2,gphyt_s_context_2,wave,heldout,22,0.15061847493052483,0.14817116223275661,4
+Context 2,gphyt_s_context_2,wave,heldout,23,0.16291440278291702,0.16209380514919758,4
+Context 2,gphyt_s_context_2,wave,heldout,24,0.1753299981355667,0.17624574899673462,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,1,0.0018245813553221524,0.0018244716338813305,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,2,0.012272427789866924,0.012258907314389944,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,3,0.03960522823035717,0.03953955043107271,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,4,0.0898069404065609,0.08966038376092911,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,5,0.16372573375701904,0.16356120258569717,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,6,0.25707314908504486,0.2571100890636444,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,7,0.3653344362974167,0.3658997341990471,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,8,0.4870366305112839,0.48838018625974655,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,9,0.623023509979248,0.6252435743808746,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,10,0.7734128832817078,0.7763954102993011,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,11,0.9370735287666321,0.9405272006988525,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,12,1.111657738685608,1.1152258813381195,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,13,1.293282687664032,1.2966987490653992,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,14,1.477078139781952,1.479055792093277,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,15,1.6516287922859192,1.6544397175312042,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,16,1.8107284903526306,1.814087986946106,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,17,1.9452905654907227,1.9496736824512482,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,18,2.047792434692383,2.0543592274188995,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,19,2.1132923364639282,2.123597204685211,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,20,2.1401472091674805,2.1558523774147034,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,21,2.130715489387512,2.153068721294403,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,22,2.0911511182785034,2.1204579770565033,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,23,2.030031979084015,2.065465956926346,4
+Context 2,gphyt_s_context_2,thermal_convection,heldout,24,1.9563660025596619,1.9962542653083801,4
+Context 8,gphyt_s_context_8,advection,train,1,0.00029048863507341594,0.00033992124735959806,4
+Context 8,gphyt_s_context_8,advection,train,2,0.0018430621130391955,0.002144778525689617,4
+Context 8,gphyt_s_context_8,advection,train,3,0.005766215967014432,0.006728285283315927,4
+Context 8,gphyt_s_context_8,advection,train,4,0.013084947131574154,0.015385821927338839,4
+Context 8,gphyt_s_context_8,advection,train,5,0.02462560497224331,0.02924586134031415,4
+Context 8,gphyt_s_context_8,advection,train,6,0.041001961566507816,0.04918144131079316,4
+Context 8,gphyt_s_context_8,advection,train,7,0.06265479885041714,0.07578702364116907,4
+Context 8,gphyt_s_context_8,advection,train,8,0.08989617228507996,0.10939352866262197,4
+Context 8,gphyt_s_context_8,advection,train,9,0.12293608114123344,0.15008561313152313,4
+Context 8,gphyt_s_context_8,advection,train,10,0.1618717610836029,0.1977644320577383,4
+Context 8,gphyt_s_context_8,advection,train,11,0.20666319876909256,0.2522129900753498,4
+Context 8,gphyt_s_context_8,advection,train,12,0.2571353167295456,0.3131559267640114,4
+Context 8,gphyt_s_context_8,advection,train,13,0.3129981458187103,0.38029319420456886,4
+Context 8,gphyt_s_context_8,advection,train,14,0.37386059761047363,0.4533047266304493,4
+Context 8,gphyt_s_context_8,advection,train,15,0.43923740088939667,0.5318399146199226,4
+Context 8,gphyt_s_context_8,advection,train,16,0.5085665732622147,0.6155046224594116,4
+Context 8,gphyt_s_context_8,advection,train,17,0.5812599360942841,0.7038497477769852,4
+Context 8,gphyt_s_context_8,advection,train,18,0.6567706614732742,0.7963586002588272,4
+Context 8,gphyt_s_context_8,advection,train,19,0.734636515378952,0.8924326077103615,4
+Context 8,gphyt_s_context_8,advection,train,20,0.8144812285900116,0.9913915693759918,4
+Context 8,gphyt_s_context_8,advection,train,21,0.8959881365299225,1.0925004184246063,4
+Context 8,gphyt_s_context_8,advection,train,22,0.9788785874843597,1.1950153559446335,4
+Context 8,gphyt_s_context_8,advection,train,23,1.0628938972949982,1.2982215285301208,4
+Context 8,gphyt_s_context_8,advection,train,24,1.147765576839447,1.4014405012130737,4
+Context 8,gphyt_s_context_8,burgers,train,1,0.0003988902171840891,0.00041206752212019637,4
+Context 8,gphyt_s_context_8,burgers,train,2,0.001735308498609811,0.0017451923049520701,4
+Context 8,gphyt_s_context_8,burgers,train,3,0.004096836084499955,0.004101976926904172,4
+Context 8,gphyt_s_context_8,burgers,train,4,0.007503180066123605,0.0074914294527843595,4
+Context 8,gphyt_s_context_8,burgers,train,5,0.011994103901088238,0.011963040102273226,4
+Context 8,gphyt_s_context_8,burgers,train,6,0.017600249499082565,0.01754682301543653,4
+Context 8,gphyt_s_context_8,burgers,train,7,0.024363195523619652,0.024289472959935665,4
+Context 8,gphyt_s_context_8,burgers,train,8,0.032314655371010303,0.03222809266299009,4
+Context 8,gphyt_s_context_8,burgers,train,9,0.0414397269487381,0.04135938361287117,4
+Context 8,gphyt_s_context_8,burgers,train,10,0.0517189409583807,0.05169269721955061,4
+Context 8,gphyt_s_context_8,burgers,train,11,0.06308386102318764,0.06319316942244768,4
+Context 8,gphyt_s_context_8,burgers,train,12,0.07543197646737099,0.07580779306590557,4
+Context 8,gphyt_s_context_8,burgers,train,13,0.0886269249022007,0.0894525945186615,4
+Context 8,gphyt_s_context_8,burgers,train,14,0.10253343358635902,0.10403508320450783,4
+Context 8,gphyt_s_context_8,burgers,train,15,0.11703182756900787,0.11945810541510582,4
+Context 8,gphyt_s_context_8,burgers,train,16,0.13203008472919464,0.13562841713428497,4
+Context 8,gphyt_s_context_8,burgers,train,17,0.14745646715164185,0.1524609811604023,4
+Context 8,gphyt_s_context_8,burgers,train,18,0.16325271874666214,0.16987185925245285,4
+Context 8,gphyt_s_context_8,burgers,train,19,0.1793738678097725,0.1877898946404457,4
+Context 8,gphyt_s_context_8,burgers,train,20,0.19713323563337326,0.20616116002202034,4
+Context 8,gphyt_s_context_8,burgers,train,21,0.21632377058267593,0.22495963796973228,4
+Context 8,gphyt_s_context_8,burgers,train,22,0.23597443848848343,0.24418756365776062,4
+Context 8,gphyt_s_context_8,burgers,train,23,0.2560807168483734,0.2638721503317356,4
+Context 8,gphyt_s_context_8,burgers,train,24,0.27666549384593964,0.2840564325451851,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,1,3.4554925150587223e-05,3.607482540246565e-05,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,2,0.00013520769061869942,0.0001393662842019694,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,3,0.0003134509825031273,0.0003243335959268734,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,4,0.0005650234961649403,0.0005839531804667786,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,5,0.0008957920363172889,0.0009278793004341424,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,6,0.0013048628461547196,0.0013537576014641672,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,7,0.0017970510525628924,0.0018693981692194939,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,8,0.002374225063249469,0.0024765788693912327,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,9,0.003033952205441892,0.0031733813229948282,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,10,0.00378160469699651,0.003967506752815098,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,11,0.004617891157977283,0.00485973380273208,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,12,0.005548361921682954,0.005857796058990061,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,13,0.006575766019523144,0.0069651942467316985,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,14,0.007705633528530598,0.008189535583369434,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,15,0.0089423016179353,0.009536447352729738,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,16,0.010291813174262643,0.011014112271368504,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,17,0.011761005036532879,0.012631832854822278,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,18,0.013357108924537897,0.014399098232388496,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,19,0.01508907275274396,0.016327952267602086,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,20,0.016966117080301046,0.018430605297908187,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,21,0.018999252934008837,0.02072186302393675,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,22,0.021200165152549744,0.023217449663206935,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,23,0.023582100868225098,0.025935533922165632,4
+Context 8,gphyt_s_context_8,incompressible_ns,train,24,0.02615946438163519,0.028895923867821693,4
+Context 8,gphyt_s_context_8,sine_gordon,train,1,6.236766057554632e-05,6.855093579360982e-05,4
+Context 8,gphyt_s_context_8,sine_gordon,train,2,0.0002256119405501522,0.00024889477936085314,4
+Context 8,gphyt_s_context_8,sine_gordon,train,3,0.0005136262625455856,0.0005679274472640827,4
+Context 8,gphyt_s_context_8,sine_gordon,train,4,0.0008678842859808356,0.0009642820950830355,4
+Context 8,gphyt_s_context_8,sine_gordon,train,5,0.0013347712229005992,0.0014896845968905836,4
+Context 8,gphyt_s_context_8,sine_gordon,train,6,0.0018350380705669522,0.0020546379091683775,4
+Context 8,gphyt_s_context_8,sine_gordon,train,7,0.002456446411088109,0.0027473715599626303,4
+Context 8,gphyt_s_context_8,sine_gordon,train,8,0.0030808792216703296,0.003446274728048593,4
+Context 8,gphyt_s_context_8,sine_gordon,train,9,0.0038293281104415655,0.004274479520972818,4
+Context 8,gphyt_s_context_8,sine_gordon,train,10,0.004554098704829812,0.005079223192296922,4
+Context 8,gphyt_s_context_8,sine_gordon,train,11,0.005415416555479169,0.006027796189300716,4
+Context 8,gphyt_s_context_8,sine_gordon,train,12,0.0062341513112187386,0.006927377893589437,4
+Context 8,gphyt_s_context_8,sine_gordon,train,13,0.007205633446574211,0.007996251108124852,4
+Context 8,gphyt_s_context_8,sine_gordon,train,14,0.008118664380162954,0.008984277956187725,4
+Context 8,gphyt_s_context_8,sine_gordon,train,15,0.009201021399348974,0.010180874727666378,4
+Context 8,gphyt_s_context_8,sine_gordon,train,16,0.010212301276624203,0.01125125982798636,4
+Context 8,gphyt_s_context_8,sine_gordon,train,17,0.011410778388381004,0.012594741769134998,4
+Context 8,gphyt_s_context_8,sine_gordon,train,18,0.01252995291724801,0.01374224224127829,4
+Context 8,gphyt_s_context_8,sine_gordon,train,19,0.013851155526936054,0.015265217516571283,4
+Context 8,gphyt_s_context_8,sine_gordon,train,20,0.01509250933304429,0.01648350479081273,4
+Context 8,gphyt_s_context_8,sine_gordon,train,21,0.01657441770657897,0.018228634726256132,4
+Context 8,gphyt_s_context_8,sine_gordon,train,22,0.01808412652462721,0.01951046008616686,4
+Context 8,gphyt_s_context_8,sine_gordon,train,23,0.019743156619369984,0.021517981775105,4
+Context 8,gphyt_s_context_8,sine_gordon,train,24,0.02145210560411215,0.022861343808472157,4
+Context 8,gphyt_s_context_8,wave,heldout,1,0.0001875413945526816,0.00018781682956614532,4
+Context 8,gphyt_s_context_8,wave,heldout,2,0.0005571974907070398,0.0006162478675832972,4
+Context 8,gphyt_s_context_8,wave,heldout,3,0.001364168303553015,0.0014489770837826654,4
+Context 8,gphyt_s_context_8,wave,heldout,4,0.002150831278413534,0.0023602568835485727,4
+Context 8,gphyt_s_context_8,wave,heldout,5,0.003498213365674019,0.0037415913539007306,4
+Context 8,gphyt_s_context_8,wave,heldout,6,0.004561465000733733,0.0049853185773827136,4
+Context 8,gphyt_s_context_8,wave,heldout,7,0.0064059533178806305,0.006843505543656647,4
+Context 8,gphyt_s_context_8,wave,heldout,8,0.007601513527333736,0.00826743757352233,4
+Context 8,gphyt_s_context_8,wave,heldout,9,0.009935708716511726,0.010563642019405961,4
+Context 8,gphyt_s_context_8,wave,heldout,10,0.011119917966425419,0.012010699138045311,4
+Context 8,gphyt_s_context_8,wave,heldout,11,0.013964996673166752,0.014746340224519372,4
+Context 8,gphyt_s_context_8,wave,heldout,12,0.015019339509308338,0.016079887514933944,4
+Context 8,gphyt_s_context_8,wave,heldout,13,0.018433714285492897,0.019315621815621853,4
+Context 8,gphyt_s_context_8,wave,heldout,14,0.019284064881503582,0.02042796672321856,4
+Context 8,gphyt_s_context_8,wave,heldout,15,0.023343997076153755,0.024269907269626856,4
+Context 8,gphyt_s_context_8,wave,heldout,16,0.024004756473004818,0.025128290057182312,4
+Context 8,gphyt_s_context_8,wave,heldout,17,0.028759749606251717,0.0296821016818285,4
+Context 8,gphyt_s_context_8,wave,heldout,18,0.029358336701989174,0.03037675330415368,4
+Context 8,gphyt_s_context_8,wave,heldout,19,0.03479005955159664,0.03568475320935249,4
+Context 8,gphyt_s_context_8,wave,heldout,20,0.03552277944982052,0.036407704930752516,4
+Context 8,gphyt_s_context_8,wave,heldout,21,0.041577259078621864,0.042460693046450615,4
+Context 8,gphyt_s_context_8,wave,heldout,22,0.04266991652548313,0.04344726260751486,4
+Context 8,gphyt_s_context_8,wave,heldout,23,0.04927614703774452,0.05022406578063965,4
+Context 8,gphyt_s_context_8,wave,heldout,24,0.05095254257321358,0.05170909222215414,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,1,0.002101339749060571,0.00210028188303113,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,2,0.011166437529027462,0.011169074103236198,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,3,0.0310355331748724,0.03105520224198699,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,4,0.06456632725894451,0.06462496053427458,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,5,0.11406658962368965,0.11418220028281212,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,6,0.18122270703315735,0.1813960261642933,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,7,0.2672560214996338,0.26744288578629494,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,8,0.37255440652370453,0.37262121587991714,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,9,0.49559932947158813,0.4952564388513565,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,10,0.633353054523468,0.6320938915014267,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,11,0.7812981605529785,0.7783975154161453,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,12,0.9337645471096039,0.9283964186906815,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,13,1.0840700268745422,1.0755921006202698,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,14,1.225045382976532,1.213381141424179,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,15,1.3497519493103027,1.335684359073639,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,16,1.4526404738426208,1.4377708733081818,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,17,1.5306256413459778,1.5169159770011902,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,18,1.5835546255111694,1.5726836323738098,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,19,1.6095903515815735,1.606749415397644,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,20,1.61958646774292,1.6223905980587006,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,21,1.6255155801773071,1.6240493953227997,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,22,1.6222931146621704,1.616686224937439,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,23,1.6130767464637756,1.6052321791648865,4
+Context 8,gphyt_s_context_8,thermal_convection,heldout,24,1.603581964969635,1.5941845178604126,4
+No derivatives,gphyt_s_no_derivatives,advection,train,1,0.003993776277638972,0.0037739400868304074,4
+No derivatives,gphyt_s_no_derivatives,advection,train,2,0.015490455087274313,0.015154172433540225,4
+No derivatives,gphyt_s_no_derivatives,advection,train,3,0.03325221035629511,0.03452042303979397,4
+No derivatives,gphyt_s_no_derivatives,advection,train,4,0.056650035083293915,0.061911423690617085,4
+No derivatives,gphyt_s_no_derivatives,advection,train,5,0.08527347445487976,0.0966123715043068,4
+No derivatives,gphyt_s_no_derivatives,advection,train,6,0.11896193772554398,0.13826952502131462,4
+No derivatives,gphyt_s_no_derivatives,advection,train,7,0.15762507915496826,0.18677873350679874,4
+No derivatives,gphyt_s_no_derivatives,advection,train,8,0.20124027132987976,0.2422456257045269,4
+No derivatives,gphyt_s_no_derivatives,advection,train,9,0.24989978224039078,0.30478399991989136,4
+No derivatives,gphyt_s_no_derivatives,advection,train,10,0.30356360971927643,0.37395672872662544,4
+No derivatives,gphyt_s_no_derivatives,advection,train,11,0.361796110868454,0.4482944905757904,4
+No derivatives,gphyt_s_no_derivatives,advection,train,12,0.4236760139465332,0.5253409668803215,4
+No derivatives,gphyt_s_no_derivatives,advection,train,13,0.4882136732339859,0.6029552221298218,4
+No derivatives,gphyt_s_no_derivatives,advection,train,14,0.556340366601944,0.6802542954683304,4
+No derivatives,gphyt_s_no_derivatives,advection,train,15,0.6310843825340271,0.757137343287468,4
+No derivatives,gphyt_s_no_derivatives,advection,train,16,0.7097941339015961,0.8334359675645828,4
+No derivatives,gphyt_s_no_derivatives,advection,train,17,0.7918514609336853,0.9089410603046417,4
+No derivatives,gphyt_s_no_derivatives,advection,train,18,0.8763161897659302,0.9833972752094269,4
+No derivatives,gphyt_s_no_derivatives,advection,train,19,0.9619347751140594,1.0564339756965637,4
+No derivatives,gphyt_s_no_derivatives,advection,train,20,1.0478341281414032,1.1278742402791977,4
+No derivatives,gphyt_s_no_derivatives,advection,train,21,1.1337294578552246,1.1978122740983963,4
+No derivatives,gphyt_s_no_derivatives,advection,train,22,1.2196220755577087,1.2664727121591568,4
+No derivatives,gphyt_s_no_derivatives,advection,train,23,1.3058415055274963,1.3342669308185577,4
+No derivatives,gphyt_s_no_derivatives,advection,train,24,1.3928521871566772,1.4016957581043243,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,1,0.0009538305166643113,0.0009690043807495385,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,2,0.0037167563568800688,0.0038311893586069345,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,3,0.008181570563465357,0.008534033433534205,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,4,0.014337859582155943,0.015078903641551733,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,5,0.022308753803372383,0.02350284345448017,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,6,0.03241357486695051,0.03384380880743265,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,7,0.044641004875302315,0.04612476285547018,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,8,0.05910439416766167,0.06036823242902756,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,9,0.07592105865478516,0.076614735648036,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,10,0.09519210830330849,0.09492693841457367,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,11,0.11698431521654129,0.11538040451705456,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,12,0.14132917672395706,0.13804943300783634,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,13,0.16822584718465805,0.16298319771885872,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,14,0.19598546624183655,0.19013196974992752,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,15,0.22414511442184448,0.21916017308831215,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,16,0.253173291683197,0.2492786981165409,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,17,0.28269951045513153,0.2796604223549366,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,18,0.3127012997865677,0.31012244895100594,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,19,0.3432854413986206,0.3409758433699608,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,20,0.37451137602329254,0.3725568577647209,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,21,0.4063628911972046,0.4050356149673462,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,22,0.43876637518405914,0.4384271278977394,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,23,0.47161222994327545,0.4726516529917717,4
+No derivatives,gphyt_s_no_derivatives,burgers,train,24,0.5047804117202759,0.507580928504467,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,1,8.132399671012536e-05,9.583905739418697e-05,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,2,0.0003211188886780292,0.0003782826825045049,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,3,0.0007137353532016277,0.0008402396633755416,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,4,0.0012542229378595948,0.0014751915587112308,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,5,0.0019382490427233279,0.0022771225194446743,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,6,0.0027621251065284014,0.0032409175182692707,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,7,0.0037228232249617577,0.004362251958809793,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,8,0.004817943088710308,0.005637570866383612,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,9,0.006045718211680651,0.007064088713377714,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,10,0.007404969772323966,0.00863972760271281,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,11,0.008895114064216614,0.010363155277445912,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,12,0.01051616808399558,0.012233687797561288,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,13,0.012286280281841755,0.01425137952901423,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,14,0.01420570258051157,0.01641695899888873,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,15,0.01626628777012229,0.018731858814135194,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,16,0.018470256589353085,0.021198183298110962,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,17,0.020820260047912598,0.023818695452064276,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,18,0.023319553583860397,0.026596912648528814,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,19,0.025971938855946064,0.02953708916902542,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,20,0.028781824745237827,0.03264422807842493,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,21,0.03175417613238096,0.035924088675528765,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,22,0.03489454835653305,0.03938320837914944,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,23,0.03820949047803879,0.04302911181002855,4
+No derivatives,gphyt_s_no_derivatives,incompressible_ns,train,24,0.04170607030391693,0.04687006026506424,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,1,0.00020344235963420942,0.0002168390856240876,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,2,0.0008173533133231103,0.000863923502038233,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,3,0.0018881438300013542,0.0019656736694741994,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,4,0.0035344912903383374,0.003595643676817417,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,5,0.005957253277301788,0.005879357340745628,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,6,0.009379217401146889,0.00903868826571852,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,7,0.013169434387236834,0.013404688099399209,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,8,0.017882617190480232,0.019421620760113,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,9,0.023722819052636623,0.02762824622914195,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,10,0.030968938022851944,0.03862434532493353,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,11,0.04023561626672745,0.05306917987763882,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,12,0.054631464183330536,0.07173564843833447,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,13,0.0740562304854393,0.09562021866440773,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,14,0.1004822663962841,0.12608775682747364,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,15,0.1366720274090767,0.16499715857207775,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,16,0.18613844364881516,0.21470046415925026,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,17,0.2526084631681442,0.27774854749441147,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,18,0.3388849049806595,0.35621391981840134,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,19,0.44561104476451874,0.45087897777557373,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,20,0.5707094967365265,0.5607289150357246,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,21,0.7096042633056641,0.6828786283731461,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,22,0.855849027633667,0.8127981275320053,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,23,1.0021161139011383,0.9448596388101578,4
+No derivatives,gphyt_s_no_derivatives,sine_gordon,train,24,1.1415731310844421,1.0732579231262207,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,1,0.00027662370121106505,0.00030919494020054117,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,2,0.0011723139905370772,0.0012853811495006084,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,3,0.002950674737803638,0.0031266334699466825,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,4,0.0062216902151703835,0.006280446890741587,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,5,0.010908718220889568,0.011484451126307249,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,6,0.017801581881940365,0.019938271027058363,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,7,0.028475387021899223,0.03334889141842723,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,8,0.04533771425485611,0.05396821955218911,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,9,0.07185303047299385,0.08463498018682003,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,10,0.11232643574476242,0.12868371419608593,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,11,0.17143680155277252,0.1896817311644554,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,12,0.25356507301330566,0.2710612900555134,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,13,0.362088143825531,0.37558073550462723,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,14,0.49880199134349823,0.5047399550676346,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,15,0.6632338464260101,0.6582031846046448,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,16,0.8149070739746094,0.8332957029342651,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,17,0.9932464361190796,1.0249904096126556,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,18,1.184934914112091,1.2264834940433502,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,19,1.3859363794326782,1.4303669035434723,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,20,1.5910702347755432,1.6297757923603058,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,21,1.79405677318573,1.8189412355422974,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,22,1.9883254170417786,1.9934449791908264,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,23,2.1688390970230103,2.150659203529358,4
+No derivatives,gphyt_s_no_derivatives,wave,heldout,24,2.334184408187866,2.290441930294037,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,1,0.001976944971829653,0.0019796203123405576,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,2,0.007923074532300234,0.007931801723316312,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,3,0.017949462868273258,0.017964785918593407,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,4,0.03225219435989857,0.032271850388497114,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,5,0.051079101860523224,0.05109818186610937,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,6,0.07477427646517754,0.07478656992316246,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,7,0.10382647812366486,0.10382301360368729,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,8,0.13892870396375656,0.13889643922448158,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,9,0.18103715032339096,0.1809503138065338,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,10,0.23140975087881088,0.23121432587504387,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,11,0.29160791635513306,0.29119282960891724,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,12,0.36341749131679535,0.3625686839222908,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,13,0.44862526655197144,0.44696835428476334,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,14,0.5485921502113342,0.5455351248383522,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,15,0.6635735332965851,0.6583059132099152,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,16,0.7918899357318878,0.7835066169500351,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,17,0.9292347729206085,0.9170508980751038,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,18,1.0686054825782776,1.0526063293218613,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,19,1.2012656331062317,1.1824650168418884,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,20,1.3186550736427307,1.2990437150001526,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,21,1.4144876599311829,1.39646977186203,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,22,1.4860115051269531,1.4716405868530273,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,23,1.5339234471321106,1.5243969559669495,4
+No derivatives,gphyt_s_no_derivatives,thermal_convection,heldout,24,1.561314344406128,1.5569559931755066,4
+UNet-S,unet_s_baseline,advection,train,1,0.0032526819268241525,0.0028923198697157204,4
+UNet-S,unet_s_baseline,advection,train,2,0.0024758164072409272,0.0021771450410597026,4
+UNet-S,unet_s_baseline,advection,train,3,0.04456262290477753,0.04365537315607071,4
+UNet-S,unet_s_baseline,advection,train,4,0.02949338313192129,0.02786649437621236,4
+UNet-S,unet_s_baseline,advection,train,5,0.48147596418857574,0.49104396998882294,4
+UNet-S,unet_s_baseline,advection,train,6,0.53373584151268,0.5106508731842041,4
+UNet-S,unet_s_baseline,advection,train,7,1.4796831011772156,1.4563380777835846,4
+UNet-S,unet_s_baseline,advection,train,8,1.4881212711334229,1.4597874283790588,4
+UNet-S,unet_s_baseline,advection,train,9,2.221783399581909,2.209041088819504,4
+UNet-S,unet_s_baseline,advection,train,10,2.04115891456604,2.0357138216495514,4
+UNet-S,unet_s_baseline,advection,train,11,2.488168478012085,2.522534728050232,4
+UNet-S,unet_s_baseline,advection,train,12,2.278409719467163,2.281463384628296,4
+UNet-S,unet_s_baseline,advection,train,13,2.6649175882339478,2.694598376750946,4
+UNet-S,unet_s_baseline,advection,train,14,2.554560422897339,2.555802285671234,4
+UNet-S,unet_s_baseline,advection,train,15,2.8637765645980835,2.8760973811149597,4
+UNet-S,unet_s_baseline,advection,train,16,2.8887877464294434,2.898572325706482,4
+UNet-S,unet_s_baseline,advection,train,17,3.1495639085769653,3.140474557876587,4
+UNet-S,unet_s_baseline,advection,train,18,3.215780019760132,3.1852951645851135,4
+UNet-S,unet_s_baseline,advection,train,19,3.292487621307373,3.320785641670227,4
+UNet-S,unet_s_baseline,advection,train,20,3.3318166732788086,3.2899771332740784,4
+UNet-S,unet_s_baseline,advection,train,21,3.4291956424713135,3.416489064693451,4
+UNet-S,unet_s_baseline,advection,train,22,3.3789305686950684,3.4000433683395386,4
+UNet-S,unet_s_baseline,advection,train,23,3.4267284870147705,3.504124939441681,4
+UNet-S,unet_s_baseline,advection,train,24,3.537667989730835,3.5580215454101562,4
+UNet-S,unet_s_baseline,burgers,train,1,0.015344114508479834,0.01514649810269475,4
+UNet-S,unet_s_baseline,burgers,train,2,0.00812860717996955,0.007909964770078659,4
+UNet-S,unet_s_baseline,burgers,train,3,0.07471593096852303,0.07195684686303139,4
+UNet-S,unet_s_baseline,burgers,train,4,0.032442666590213776,0.03250200115144253,4
+UNet-S,unet_s_baseline,burgers,train,5,0.2779911011457443,0.2713700272142887,4
+UNet-S,unet_s_baseline,burgers,train,6,0.27375851571559906,0.2687096819281578,4
+UNet-S,unet_s_baseline,burgers,train,7,0.8509097695350647,0.8625624626874924,4
+UNet-S,unet_s_baseline,burgers,train,8,0.8889334201812744,0.8881324976682663,4
+UNet-S,unet_s_baseline,burgers,train,9,1.5113813877105713,1.479595571756363,4
+UNet-S,unet_s_baseline,burgers,train,10,1.5840900540351868,1.5745846331119537,4
+UNet-S,unet_s_baseline,burgers,train,11,1.8160595297813416,1.7956022024154663,4
+UNet-S,unet_s_baseline,burgers,train,12,2.0782278180122375,2.1288745403289795,4
+UNet-S,unet_s_baseline,burgers,train,13,1.8545307517051697,1.8492730855941772,4
+UNet-S,unet_s_baseline,burgers,train,14,2.2903826236724854,2.375649333000183,4
+UNet-S,unet_s_baseline,burgers,train,15,1.8523913025856018,1.885400265455246,4
+UNet-S,unet_s_baseline,burgers,train,16,2.271811604499817,2.34858775138855,4
+UNet-S,unet_s_baseline,burgers,train,17,1.9723221063613892,2.001928597688675,4
+UNet-S,unet_s_baseline,burgers,train,18,2.1835124492645264,2.1862874031066895,4
+UNet-S,unet_s_baseline,burgers,train,19,2.2142627239227295,2.2038673758506775,4
+UNet-S,unet_s_baseline,burgers,train,20,2.023947596549988,2.0601271092891693,4
+UNet-S,unet_s_baseline,burgers,train,21,2.382864832878113,2.376633584499359,4
+UNet-S,unet_s_baseline,burgers,train,22,1.9906859993934631,2.0229877531528473,4
+UNet-S,unet_s_baseline,burgers,train,23,2.4423516988754272,2.4363731741905212,4
+UNet-S,unet_s_baseline,burgers,train,24,2.0679818391799927,2.0733683109283447,4
+UNet-S,unet_s_baseline,incompressible_ns,train,1,0.0073220685590058565,0.009283765102736652,4
+UNet-S,unet_s_baseline,incompressible_ns,train,2,0.004427919164299965,0.00557647057576105,4
+UNet-S,unet_s_baseline,incompressible_ns,train,3,0.01738923043012619,0.02001529512926936,4
+UNet-S,unet_s_baseline,incompressible_ns,train,4,0.010008083190768957,0.011581389233469963,4
+UNet-S,unet_s_baseline,incompressible_ns,train,5,0.06107128970324993,0.06746106594800949,4
+UNet-S,unet_s_baseline,incompressible_ns,train,6,0.06358861923217773,0.05982040707021952,4
+UNet-S,unet_s_baseline,incompressible_ns,train,7,0.27561868727207184,0.26865122839808464,4
+UNet-S,unet_s_baseline,incompressible_ns,train,8,0.335894376039505,0.312804002314806,4
+UNet-S,unet_s_baseline,incompressible_ns,train,9,0.6850011050701141,0.6893651485443115,4
+UNet-S,unet_s_baseline,incompressible_ns,train,10,0.8359975218772888,0.8178327828645706,4
+UNet-S,unet_s_baseline,incompressible_ns,train,11,0.9828461408615112,1.010634109377861,4
+UNet-S,unet_s_baseline,incompressible_ns,train,12,1.3708070516586304,1.3579254746437073,4
+UNet-S,unet_s_baseline,incompressible_ns,train,13,1.1363434791564941,1.1322184205055237,4
+UNet-S,unet_s_baseline,incompressible_ns,train,14,1.7469331622123718,1.7682153284549713,4
+UNet-S,unet_s_baseline,incompressible_ns,train,15,1.19570654630661,1.2039894759654999,4
+UNet-S,unet_s_baseline,incompressible_ns,train,16,1.9180415272712708,1.9551191926002502,4
+UNet-S,unet_s_baseline,incompressible_ns,train,17,1.3762452602386475,1.3522111177444458,4
+UNet-S,unet_s_baseline,incompressible_ns,train,18,1.911820650100708,1.938523143529892,4
+UNet-S,unet_s_baseline,incompressible_ns,train,19,1.5916101336479187,1.5649200975894928,4
+UNet-S,unet_s_baseline,incompressible_ns,train,20,1.7752271890640259,1.7974328398704529,4
+UNet-S,unet_s_baseline,incompressible_ns,train,21,1.76575767993927,1.771745651960373,4
+UNet-S,unet_s_baseline,incompressible_ns,train,22,1.6770294308662415,1.720232516527176,4
+UNet-S,unet_s_baseline,incompressible_ns,train,23,1.8778650164604187,1.8872615993022919,4
+UNet-S,unet_s_baseline,incompressible_ns,train,24,1.705200970172882,1.7280493676662445,4
+UNet-S,unet_s_baseline,sine_gordon,train,1,0.008107496425509453,0.008084958302788436,4
+UNet-S,unet_s_baseline,sine_gordon,train,2,0.004145301878452301,0.004180470888968557,4
+UNet-S,unet_s_baseline,sine_gordon,train,3,0.03798983059823513,0.03438640898093581,4
+UNet-S,unet_s_baseline,sine_gordon,train,4,0.02691613230854273,0.024672309402376413,4
+UNet-S,unet_s_baseline,sine_gordon,train,5,0.23103566467761993,0.2098670545965433,4
+UNet-S,unet_s_baseline,sine_gordon,train,6,0.3434974253177643,0.3041938319802284,4
+UNet-S,unet_s_baseline,sine_gordon,train,7,0.8711632788181305,0.7980102747678757,4
+UNet-S,unet_s_baseline,sine_gordon,train,8,1.0180197358131409,0.9346120655536652,4
+UNet-S,unet_s_baseline,sine_gordon,train,9,1.3049669861793518,1.250233232975006,4
+UNet-S,unet_s_baseline,sine_gordon,train,10,1.3920404314994812,1.374689131975174,4
+UNet-S,unet_s_baseline,sine_gordon,train,11,1.4134706854820251,1.396503895521164,4
+UNet-S,unet_s_baseline,sine_gordon,train,12,1.677528977394104,1.6731280088424683,4
+UNet-S,unet_s_baseline,sine_gordon,train,13,1.5580865740776062,1.5664231777191162,4
+UNet-S,unet_s_baseline,sine_gordon,train,14,1.8798484802246094,1.889094978570938,4
+UNet-S,unet_s_baseline,sine_gordon,train,15,1.6712118983268738,1.7075694799423218,4
+UNet-S,unet_s_baseline,sine_gordon,train,16,1.9246044754981995,1.9437526762485504,4
+UNet-S,unet_s_baseline,sine_gordon,train,17,1.8313866257667542,1.862525761127472,4
+UNet-S,unet_s_baseline,sine_gordon,train,18,1.9951408505439758,1.966162770986557,4
+UNet-S,unet_s_baseline,sine_gordon,train,19,2.0194507837295532,2.0293566584587097,4
+UNet-S,unet_s_baseline,sine_gordon,train,20,2.016787886619568,2.0015884935855865,4
+UNet-S,unet_s_baseline,sine_gordon,train,21,2.1329522132873535,2.1833447217941284,4
+UNet-S,unet_s_baseline,sine_gordon,train,22,2.034859538078308,2.08183816075325,4
+UNet-S,unet_s_baseline,sine_gordon,train,23,2.274253249168396,2.259887248277664,4
+UNet-S,unet_s_baseline,sine_gordon,train,24,2.0151766538619995,2.097062736749649,4
+UNet-S,unet_s_baseline,wave,heldout,1,0.010010430123656988,0.010347015224397182,4
+UNet-S,unet_s_baseline,wave,heldout,2,0.005042529897764325,0.005460711428895593,4
+UNet-S,unet_s_baseline,wave,heldout,3,0.05390818975865841,0.05039931833744049,4
+UNet-S,unet_s_baseline,wave,heldout,4,0.0351684745401144,0.037240357138216496,4
+UNet-S,unet_s_baseline,wave,heldout,5,0.31602250039577484,0.30575479939579964,4
+UNet-S,unet_s_baseline,wave,heldout,6,0.40556925535202026,0.4110414795577526,4
+UNet-S,unet_s_baseline,wave,heldout,7,0.8824156522750854,0.8967599719762802,4
+UNet-S,unet_s_baseline,wave,heldout,8,1.0959675908088684,1.0763809084892273,4
+UNet-S,unet_s_baseline,wave,heldout,9,1.254253625869751,1.2609915435314178,4
+UNet-S,unet_s_baseline,wave,heldout,10,1.4312541484832764,1.413711428642273,4
+UNet-S,unet_s_baseline,wave,heldout,11,1.4833219051361084,1.4359192550182343,4
+UNet-S,unet_s_baseline,wave,heldout,12,1.6962758302688599,1.63551664352417,4
+UNet-S,unet_s_baseline,wave,heldout,13,1.6753620505332947,1.6462528705596924,4
+UNet-S,unet_s_baseline,wave,heldout,14,1.9014073610305786,1.8321373462677002,4
+UNet-S,unet_s_baseline,wave,heldout,15,1.8113595247268677,1.8132981956005096,4
+UNet-S,unet_s_baseline,wave,heldout,16,1.9307968020439148,1.9231151044368744,4
+UNet-S,unet_s_baseline,wave,heldout,17,1.8898875713348389,1.8877780139446259,4
+UNet-S,unet_s_baseline,wave,heldout,18,1.960930347442627,1.9541072845458984,4
+UNet-S,unet_s_baseline,wave,heldout,19,2.022504210472107,2.0268819332122803,4
+UNet-S,unet_s_baseline,wave,heldout,20,1.8813614249229431,1.9355863630771637,4
+UNet-S,unet_s_baseline,wave,heldout,21,2.203188896179199,2.232131242752075,4
+UNet-S,unet_s_baseline,wave,heldout,22,1.9347298741340637,1.9301177859306335,4
+UNet-S,unet_s_baseline,wave,heldout,23,2.346168041229248,2.3657946586608887,4
+UNet-S,unet_s_baseline,wave,heldout,24,1.8970546126365662,1.894433081150055,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,1,2.1767557859420776,2.1802993416786194,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,2,1.579266905784607,1.5770376026630402,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,3,3.441995143890381,3.47474604845047,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,4,2.722119450569153,2.733209252357483,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,5,3.296117663383484,3.322199583053589,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,6,3.19691002368927,3.1904921531677246,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,7,3.1196718215942383,3.103569984436035,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,8,3.250047206878662,3.253937602043152,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,9,3.082849621772766,3.079116642475128,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,10,3.252543091773987,3.2924835681915283,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,11,3.182153105735779,3.2448161840438843,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,12,3.3058003187179565,3.34084415435791,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,13,3.059799075126648,3.115014433860779,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,14,3.1789815425872803,3.196775197982788,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,15,2.728424072265625,2.79429030418396,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,16,2.9424279928207397,2.950196385383606,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,17,2.475416421890259,2.4849257469177246,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,18,2.6434457302093506,2.6408764123916626,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,19,2.166370987892151,2.2043663263320923,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,20,2.2303669452667236,2.2309584617614746,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,21,2.0477230548858643,2.0905715823173523,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,22,1.7525649666786194,1.7640438973903656,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,23,1.9706951975822449,2.0140213072299957,4
+UNet-S,unet_s_baseline,thermal_convection,heldout,24,1.324034571647644,1.3334265649318695,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,1,0.004856574698351324,0.0051518697291612625,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,2,0.005228540627285838,0.005711200996302068,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,3,0.03228671010583639,0.03230742970481515,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,4,0.026745819486677647,0.028989214450120926,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,5,0.1138932816684246,0.11343902535736561,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,6,0.08780388161540031,0.08911274280399084,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,7,0.30311567336320877,0.3047007769346237,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,8,0.25367457419633865,0.24958382546901703,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,9,0.7563067674636841,0.7659855037927628,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,10,0.8205834627151489,0.8430243879556656,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,11,2.2860766649246216,2.3209218978881836,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,12,3.546440005302429,3.6724663376808167,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,13,8.445984363555908,8.648360252380371,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,14,15.329137325286865,15.770912885665894,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,15,32.989627838134766,33.93545484542847,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,16,62.70338249206543,65.78180599212646,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,17,131.54570770263672,137.2617073059082,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,18,265.12271881103516,274.74205017089844,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,19,548.1681976318359,567.587287902832,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,20,1115.9818115234375,1154.9693908691406,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,21,2291.2161865234375,2382.490478515625,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,22,4685.208984375,4895.447937011719,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,23,9617.076171875,10125.626342773438,4
+Direct prediction,gphyt_s_direct_prediction,advection,train,24,19759.439453125,20953.083740234375,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,1,0.010085783433169127,0.009807974682189524,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,2,0.005899891955778003,0.006137231597676873,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,3,0.04085668921470642,0.039829549845308065,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,4,0.015005688183009624,0.016736864345148206,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,5,0.11224502325057983,0.1097615472972393,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,6,0.03465917333960533,0.04072209261357784,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,7,0.2989922910928726,0.3062081038951874,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,8,0.17423493415117264,0.2065911889076233,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,9,0.9703429937362671,1.0570241957902908,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,10,1.1538254022598267,1.3071296662092209,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,11,3.9381110668182373,4.347587466239929,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,12,6.336907386779785,7.0681328773498535,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,13,16.668837547302246,18.318182229995728,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,14,30.29673480987549,33.56039810180664,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,15,71.2814998626709,76.93534183502197,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,16,138.99269104003906,149.73295211791992,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,17,307.4897003173828,324.8025245666504,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,18,623.4273071289062,653.5825271606445,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,19,1345.1698608398438,1386.3819122314453,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,20,2790.087158203125,2845.519744873047,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,21,5966.99267578125,5993.931213378906,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,22,12542.634765625,12458.364135742188,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,23,26764.0185546875,26237.11962890625,4
+Direct prediction,gphyt_s_direct_prediction,burgers,train,24,56698.23046875,54998.763671875,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,1,0.0012592142447829247,0.0015868395857978612,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,2,0.0007292050577234477,0.0009692135354271159,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,3,0.004107540939003229,0.005135772516950965,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,4,0.0015185220981948078,0.0019446788064669818,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,5,0.012075147591531277,0.015303372405469418,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,6,0.004481030628085136,0.005752914410550147,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,7,0.04275639168918133,0.055450488813221455,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,8,0.035327671095728874,0.04628875758498907,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,9,0.20176345109939575,0.26377758756279945,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,10,0.297871470451355,0.37601426988840103,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,11,1.0705978870391846,1.3261172026395798,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,12,1.8798668384552002,2.2672528326511383,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,13,5.027778148651123,6.004010319709778,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,14,9.319564819335938,10.921785712242126,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,15,21.359801292419434,24.932347774505615,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,16,40.65316200256348,46.688594341278076,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,17,85.89620208740234,98.55790519714355,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,18,166.4450454711914,188.28337478637695,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,19,338.6983337402344,382.94541931152344,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,20,666.1110534667969,744.4660415649414,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,21,1340.6681518554688,1496.2165222167969,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,22,2673.992431640625,2957.8987426757812,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,23,5400.235595703125,5958.6214599609375,4
+Direct prediction,gphyt_s_direct_prediction,incompressible_ns,train,24,10920.43603515625,11968.689331054688,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,1,0.00320173311047256,0.003252855909522623,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,2,0.0019300845451653004,0.0019559148931875825,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,3,0.01703504379838705,0.01780229527503252,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,4,0.009207147639244795,0.009749383432790637,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,5,0.07455433905124664,0.07857722975313663,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,6,0.07648342102766037,0.08513341285288334,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,7,0.4176785349845886,0.437628410756588,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,8,0.7182064652442932,0.7489255368709564,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,9,2.1504404544830322,2.221627801656723,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,10,3.921113610267639,3.9785130620002747,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,11,8.867230415344238,9.255126714706421,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,12,16.634998321533203,17.13111972808838,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,13,33.42098426818848,35.554439544677734,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,14,63.04816436767578,66.00725841522217,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,15,121.1438980102539,128.20065307617188,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,16,224.4041519165039,235.98306274414062,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,17,421.59210205078125,441.81105041503906,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,18,777.0474243164062,808.5331268310547,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,19,1447.7503051757812,1489.6698913574219,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,20,2678.3209228515625,2728.8412475585938,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,21,5009.5693359375,5019.3175048828125,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,22,9368.29443359375,9262.571166992188,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,23,17296.5986328125,17167.1953125,4
+Direct prediction,gphyt_s_direct_prediction,sine_gordon,train,24,32147.8154296875,32055.7666015625,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,1,0.003834498580545187,0.003908893850166351,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,2,0.0021831009071320295,0.0022026769584044814,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,3,0.01908215694129467,0.019035544944927096,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,4,0.009577896911650896,0.010202990612015128,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,5,0.08835812658071518,0.09004426375031471,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,6,0.11873579770326614,0.11189358308911324,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,7,0.590829074382782,0.5449532493948936,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,8,1.0091012716293335,0.9323213845491409,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,9,2.7775495052337646,2.635845899581909,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,10,4.980641841888428,4.650025248527527,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,11,11.200468063354492,10.591728448867798,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,12,19.983431816101074,19.22221326828003,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,13,40.73102378845215,39.81415939331055,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,14,73.39086151123047,72.72416591644287,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,15,142.47129440307617,142.5205478668213,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,16,259.43453216552734,259.241756439209,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,17,495.36253356933594,490.770263671875,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,18,900.7081909179688,889.2593383789062,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,19,1666.234375,1650.7933349609375,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,20,3000.93408203125,2993.4638671875,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,21,5460.378173828125,5517.5233154296875,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,22,9811.4775390625,10074.22900390625,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,23,18008.8134765625,18636.294921875,4
+Direct prediction,gphyt_s_direct_prediction,wave,heldout,24,32984.2373046875,34479.765625,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,1,1.0848488211631775,1.0848754942417145,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,2,1.0386192798614502,1.038726568222046,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,3,1.1762015223503113,1.1758475005626678,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,4,1.2616020441055298,1.2617009580135345,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,5,1.7365126609802246,1.7376797199249268,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,6,2.3468581438064575,2.350170075893402,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,7,4.322853326797485,4.330907106399536,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,8,7.309247970581055,7.327797889709473,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,9,15.448105335235596,15.48933482170105,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,10,29.433073043823242,29.484219551086426,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,11,63.58648490905762,63.5980920791626,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,12,126.19305801391602,126.47661399841309,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,13,265.37571716308594,266.48927307128906,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,14,526.6539611816406,529.2919616699219,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,15,1064.0123901367188,1070.6534881591797,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,16,2054.0059204101562,2071.5199279785156,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,17,3948.6796875,3996.1539916992188,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,18,7320.2080078125,7445.911376953125,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,19,13393.6162109375,13711.3828125,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,20,23872.630859375,24620.63623046875,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,21,42101.671875,43740.3994140625,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,22,73330.15625,76675.615234375,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,23,127569.58984375,134021.365234375,4
+Direct prediction,gphyt_s_direct_prediction,thermal_convection,heldout,24,222188.1484375,234139.5859375,4
