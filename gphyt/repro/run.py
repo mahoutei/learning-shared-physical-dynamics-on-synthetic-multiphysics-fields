@@ -37,14 +37,18 @@ from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
 from gphyt.data.dataset_utils import get_dt_datasets
 from gphyt.data.phys_dataset import SuperDataset, get_phys_dataset
 from gphyt.models.model_utils import get_model
+from gphyt.models.transformer.num_integration import Euler, Heun, RK4
 from gphyt.repro import corpus, systems
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_CONFIG = Path(__file__).resolve().parent / "config.yaml"
 
 
+INTEGRATORS = {"Euler": Euler, "Heun": Heun, "RK4": RK4}
+
+
 class DirectPrediction(nn.Module):
-    """Ablation: predict the next state directly instead of integrating a derivative."""
+    """Ablation: predict the next state directly without a residual shortcut."""
 
     def __init__(self, model: nn.Module):
         super().__init__()
@@ -52,6 +56,49 @@ class DirectPrediction(nn.Module):
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         return self.model.differentiate(x)[:, -1, ...].unsqueeze(1)
+
+
+class DerivativeIntegrator(nn.Module):
+    """Treat the learned field as a derivative and integrate one step."""
+
+    def __init__(
+        self,
+        model: nn.Module,
+        integrator_name: str = "Heun",
+        step_size: float = 1.0,
+        *,
+        last_frame_only: bool = False,
+    ):
+        super().__init__()
+        if integrator_name not in INTEGRATORS:
+            raise ValueError(
+                f"Invalid integrator {integrator_name!r}; choose from {sorted(INTEGRATORS)}"
+            )
+        if last_frame_only and integrator_name != "Heun":
+            raise ValueError("last_frame_only requires the Heun integrator")
+        self.model = model
+        self.integrator = INTEGRATORS[integrator_name]()
+        self.step_size = float(step_size)
+        self.last_frame_only = last_frame_only
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        if self.last_frame_only:
+            history = x[:, :-1]
+
+            def newest_slope(state: torch.Tensor) -> torch.Tensor:
+                window = torch.cat((history, state), dim=1)
+                return self.model.differentiate(window)[:, -1:]
+
+            return self.integrator(newest_slope, x[:, -1:], self.step_size)
+        out = self.integrator(self.model.differentiate, x, self.step_size)
+        return out[:, -1, ...].unsqueeze(1)
+
+
+def prediction_mode(model_config: dict) -> str:
+    mode = model_config.get("prediction_mode")
+    if mode is not None:
+        return str(mode)
+    return "residual" if model_config.get("residual", True) else "direct"
 
 
 def resolve_device(name: str) -> torch.device:
@@ -97,8 +144,21 @@ def build_model(model_config: dict, n_steps_input: int, h: int, w: int) -> tuple
     if architecture == "unet":
         cfg.setdefault("n_time_steps", n_steps_input)
     model = get_model(cfg)
-    if architecture == "gphyt" and not cfg.get("residual", True):
-        model = DirectPrediction(model)
+    mode = prediction_mode(cfg)
+    if architecture == "gphyt":
+        if mode == "direct":
+            model = DirectPrediction(model)
+        elif mode == "derivative":
+            model = DerivativeIntegrator(
+                model,
+                integrator_name=str(cfg.get("integrator", "Heun")),
+                step_size=float(cfg.get("step_size", 1.0)),
+                last_frame_only=cfg.get("last_frame_only", False),
+            )
+        elif mode != "residual":
+            raise ValueError(
+                f"Invalid prediction_mode {mode!r}; choose residual, direct, or derivative"
+            )
     param_count = sum(p.numel() for p in model.parameters())
     return model, param_count
 
@@ -426,10 +486,15 @@ def main() -> None:
     model_cfg = config["model"]
     arch = model_cfg.get("architecture", "gphyt")
     size = model_cfg.get("model_size") or model_cfg.get("transformer", {}).get("model_size")
+    mode = prediction_mode(model_cfg)
+    integrator = model_cfg.get("integrator", "Heun") if mode == "derivative" else None
+    step_size = model_cfg.get("step_size", 1.0) if mode == "derivative" else None
     ablation = []
     if arch == "gphyt":
-        if not model_cfg.get("residual", True):
+        if mode == "direct":
             ablation.append("direct-prediction")
+        elif mode == "derivative":
+            ablation.append(f"derivative-{str(integrator).lower()}")
         if not model_cfg.get("transformer", {}).get("use_derivatives", True):
             ablation.append("no-derivatives")
     print(
@@ -437,6 +502,8 @@ def main() -> None:
         f"heldout={data_config.get('heldout_datasets', [])} "
         f"n_in={data_config['n_steps_input']} n_out={data_config['n_steps_output']} "
         f"batch={data_config['batch_size']} steps={steps} "
+        f"prediction={mode} integrator={integrator or 'none'} "
+        f"step_size={step_size if step_size is not None else 'none'} "
         f"ablation={','.join(ablation) or 'none'}"
     )
     print(f"[setup] device={device} steps={steps} data={data_root}")
