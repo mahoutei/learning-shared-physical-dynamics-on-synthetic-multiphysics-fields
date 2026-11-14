@@ -1,0 +1,7 @@
+{
+  "device": "cuda",
+  "torch": "2.15.0+cu132",
+  "gpu": "Tesla T4",
+  "history": 8,
+  "horizon": 24
+}
