@@ -66,17 +66,30 @@ class DerivativeIntegrator(nn.Module):
         model: nn.Module,
         integrator_name: str = "Heun",
         step_size: float = 1.0,
+        *,
+        last_frame_only: bool = False,
     ):
         super().__init__()
         if integrator_name not in INTEGRATORS:
             raise ValueError(
                 f"Invalid integrator {integrator_name!r}; choose from {sorted(INTEGRATORS)}"
             )
+        if last_frame_only and integrator_name != "Heun":
+            raise ValueError("last_frame_only requires the Heun integrator")
         self.model = model
         self.integrator = INTEGRATORS[integrator_name]()
         self.step_size = float(step_size)
+        self.last_frame_only = last_frame_only
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
+        if self.last_frame_only:
+            history = x[:, :-1]
+
+            def newest_slope(state: torch.Tensor) -> torch.Tensor:
+                window = torch.cat((history, state), dim=1)
+                return self.model.differentiate(window)[:, -1:]
+
+            return self.integrator(newest_slope, x[:, -1:], self.step_size)
         out = self.integrator(self.model.differentiate, x, self.step_size)
         return out[:, -1, ...].unsqueeze(1)
 
@@ -140,6 +153,7 @@ def build_model(model_config: dict, n_steps_input: int, h: int, w: int) -> tuple
                 model,
                 integrator_name=str(cfg.get("integrator", "Heun")),
                 step_size=float(cfg.get("step_size", 1.0)),
+                last_frame_only=cfg.get("last_frame_only", False),
             )
         elif mode != "residual":
             raise ValueError(
