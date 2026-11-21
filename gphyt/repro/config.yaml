@@ -1,4 +1,4 @@
-run_name: gphyt_s_derivative_heun
+run_name: gphyt_s_context_8
 seed: 0
 
 data:
@@ -13,7 +13,7 @@ data:
     - thermal_convection
   height: 64
   width: 32
-  n_steps_input: 4
+  n_steps_input: 8
   n_steps_output: 2
   dt_stride: [1, 4]
   batch_size: 8
@@ -40,9 +40,7 @@ model:
     detokenizer_mode: linear
     tokenizer_overlap: 0
     detokenizer_overlap: 0
-  prediction_mode: derivative
-  integrator: Heun
-  step_size: 1.0
+  residual: true
 
 training:
   steps: 2000
